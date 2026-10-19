@@ -1,0 +1,2640 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SSV MART | Quality & Assured Products - All Types of Yarn & Fabric</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Plus Jakarta Sans', 'sans-serif']
+                    },
+                    colors: {
+                        brand: {
+                            ivory: '#FAF8F5',
+                            border: '#E8E1D5',
+                            burgundy: '#8B1E29',
+                            burgundyDark: '#5C0017',
+                            gold: '#C59B27',
+                            goldSoft: '#F9F4EB',
+                            charcoal: '#1E293B'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #FAF8F5;
+            color: #1E293B;
+        }
+        /* Strict Rule: All Headings Centered & Bold */
+        h1, h2, h3, h4 {
+            text-align: center;
+            font-weight: 700;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        /* Strict Rule: All Paragraphs Justified */
+        p {
+            text-align: justify;
+            text-justify: inter-word;
+        }
+        /* Active Option & Category Pill */
+        .option-pill-active {
+            background-color: #800020 !important;
+            color: #FFFFFF !important;
+            border-color: #800020 !important;
+        }
+        .category-pill-active {
+            background-color: #800020 !important;
+            color: #FFFFFF !important;
+            border-color: #800020 !important;
+            box-shadow: 0 4px 12px rgba(128, 0, 32, 0.2);
+        }
+        /* Smooth Right-to-Left Carousel Track */
+        .carousel-track {
+            display: flex;
+            transition: transform 0.65s cubic-bezier(0.25, 1, 0.5, 1);
+            will-change: transform;
+        }
+        .carousel-slide {
+            min-width: 100%;
+            flex-shrink: 0;
+        }
+        /* Custom Subtle Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+            height: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #FAF8F5;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #C59B57;
+            border-radius: 9999px;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-brand-burgundy selection:text-white">
+
+    <!-- ===================================================================== -->
+    <!-- STICKY HEADER (CLEAN FOR VISITORS - NO OWNER BUTTON HERE)             -->
+    <!-- ===================================================================== -->
+    <header class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-brand-border shadow-2xs">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between gap-4">
+            <!-- Brand Logo & Name -->
+            <a href="#home" class="flex items-center gap-3.5 group shrink-0">
+                <div id="headerLogoContainer" class="w-14 h-14 rounded-2xl bg-white border border-brand-border flex items-center justify-center overflow-hidden shadow-xs shrink-0 p-1">
+                    <!-- Rendered via JS -->
+                </div>
+                <div class="flex flex-col justify-center">
+                    <span id="headerFirmName" class="font-display font-extrabold text-xl sm:text-2xl text-brand-burgundy tracking-wider leading-none whitespace-nowrap block">
+                        SSV MART
+                    </span>
+                    <span id="headerFirmTagline" class="text-[11px] font-bold tracking-[0.22em] uppercase text-brand-gold leading-none whitespace-nowrap block mt-1.5">
+                        THE RIGHT FIT
+                    </span>
+                </div>
+            </a>
+
+            <!-- Simple Navigation Links -->
+            <nav class="hidden md:flex items-center gap-8 text-sm font-semibold text-slate-700">
+                <a href="#home" class="hover:text-brand-burgundy transition">Home</a>
+                <a href="#about" class="hover:text-brand-burgundy transition">About</a>
+                <a href="#products" class="hover:text-brand-burgundy transition">Products</a>
+                <a href="#contact" class="hover:text-brand-burgundy transition">Contact Us</a>
+            </nav>
+
+            <!-- Direct WhatsApp Action Button -->
+            <div class="flex items-center gap-2.5">
+                <button
+                    onclick="openWhatsAppWithText('Hello SSV MART, I am visiting your website and would like to inquire about your Yarn & Fabric products.')"
+                    class="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl text-xs sm:text-sm font-bold bg-emerald-600 hover:bg-emerald-700 text-white shadow-xs transition cursor-pointer"
+                >
+                    <i class="fa-brands fa-whatsapp text-base"></i>
+                    <span>WhatsApp Us</span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- ===================================================================== -->
+    <!-- HERO SECTION                                                          -->
+    <!-- ===================================================================== -->
+    <section id="home" class="py-14 sm:py-20 bg-gradient-to-b from-white to-brand-ivory border-b border-brand-border">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6">
+            <div class="text-center mb-4">
+                <span id="heroFirmBadge" class="inline-block px-4 py-1.5 rounded-full bg-brand-goldSoft border border-brand-border text-brand-burgundy text-xs font-bold tracking-widest uppercase">
+                    SSV MART • THE RIGHT FIT
+                </span>
+            </div>
+
+            <h1 class="text-3xl sm:text-5xl font-extrabold text-brand-charcoal tracking-tight leading-tight text-center mb-6">
+                Quality & Assured Products in <span class="text-brand-burgundy">All Types of Yarn & Fabric</span>
+            </h1>
+
+            <p class="text-base sm:text-lg text-slate-600 leading-relaxed text-justify max-w-3xl mx-auto mb-8">
+                Welcome to SSV MART, your trusted wholesale and retail partner in Guntur, Andhra Pradesh. We supply high-tenacity industrial yarn spools, durable polypropylene woven fabric rolls, heavy-duty woven packaging sacks, and eco-friendly jute and canvas tote bags crafted to meet your exact commercial and industrial requirements.
+            </p>
+
+            <div class="flex flex-wrap items-center justify-center gap-4">
+                <a href="#products" class="px-7 py-3.5 rounded-xl font-bold text-sm sm:text-base text-white bg-brand-burgundy hover:bg-brand-burgundyDark shadow-md transition">
+                    Explore Our Products
+                </a>
+                <a href="#contact" class="px-7 py-3.5 rounded-xl font-bold text-sm sm:text-base text-brand-burgundy bg-white hover:bg-brand-goldSoft border border-brand-burgundy transition">
+                    Request a Price Quote
+                </a>
+                <button onclick="toggleChatbot(true)" class="px-6 py-3.5 rounded-xl font-bold text-sm sm:text-base text-white bg-emerald-600 hover:bg-emerald-700 shadow-md transition flex items-center gap-2 cursor-pointer">
+                    <i class="fa-solid fa-comments"></i>
+                    <span>Chat Online / WhatsApp</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- ABOUT SECTION                                                         -->
+    <!-- ===================================================================== -->
+    <section id="about" class="py-16 bg-white border-b border-brand-border">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 space-y-6">
+            <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-charcoal text-center">
+                About SSV MART
+            </h2>
+            <div class="w-16 h-1 bg-brand-gold mx-auto rounded-full"></div>
+
+            <p class="text-slate-600 text-base leading-relaxed text-justify">
+                Located at Vishnupriya Commercial Complex, Bonthapadu Bypass, Near TSR Ginning Mill in Guntur, SSV MART is dedicated to delivering superior quality yarns, woven fabrics, and packaging solutions. Guided by our core principle "The Right Fit", every spool of thread, roll of woven fabric, and heavy-duty sack we offer is carefully selected for lasting strength, uniform weave, and dependable performance.
+            </p>
+
+            <p class="text-slate-600 text-base leading-relaxed text-justify">
+                We serve agricultural traders, textile mills, commercial packaging units, and retail businesses with flexible order quantities and prompt service. With multiple specifications, vibrant colors, and custom sizing options available across our entire catalog, SSV MART makes sourcing quality yarn and fabric effortless and reliable.
+            </p>
+        </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- PRODUCTS SECTION WITH RIGHT-TO-LEFT SLIDER & SUB-CATEGORIES           -->
+    <!-- ===================================================================== -->
+    <section id="products" class="py-16 bg-brand-ivory border-b border-brand-border">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="max-w-3xl mx-auto mb-8 space-y-4">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-charcoal text-center">
+                    Our Products & Specifications
+                </h2>
+                <div class="w-16 h-1 bg-brand-gold mx-auto rounded-full"></div>
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
+                    Browse our product categories below. Each product showcases multiple views sliding smoothly from right to left along with detailed specifications and selectable options so you can request an exact quote on WhatsApp or online.
+                </p>
+            </div>
+
+            <!-- Sub-Category Filter Pills -->
+            <div id="subCategoryFilterBar" class="flex flex-wrap items-center justify-center gap-2.5 mb-10">
+                <!-- Populated dynamically via JS -->
+            </div>
+
+            <!-- Products Grid -->
+            <div id="productsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Populated dynamically via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- CONTACT PAGE, GOOGLE MAPS & LEAD CAPTURE FORM                         -->
+    <!-- ===================================================================== -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6">
+            <div class="max-w-3xl mx-auto mb-12 space-y-4">
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-brand-charcoal text-center">
+                    Contact Us & Send Your Inquiry
+                </h2>
+                <div class="w-16 h-1 bg-brand-gold mx-auto rounded-full"></div>
+                <p class="text-slate-600 text-sm sm:text-base leading-relaxed text-justify">
+                    Reach out to SSV MART directly by phone, WhatsApp, or email, or visit our shop at Bonthapadu Bypass, Guntur. You can also fill in the quick inquiry form below to receive a prompt quotation for your required products.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+                <!-- Left Column: Firm Contact Details & Google Maps Link -->
+                <div class="lg:col-span-5 bg-brand-ivory p-6 sm:p-8 rounded-2xl border border-brand-border space-y-5">
+                    <h3 class="text-xl font-bold text-brand-burgundy text-center">
+                        Firm Contact Information
+                    </h3>
+
+                    <p class="text-sm text-slate-600 leading-relaxed text-justify">
+                        We welcome wholesale and retail inquiries for all types of yarn, woven fabric rolls, packaging sacks, and eco-friendly tote bags. Connect with us through any of the channels below.
+                    </p>
+
+                    <div class="space-y-3.5">
+                        <!-- Address -->
+                        <div class="p-4 rounded-xl bg-white border border-brand-border">
+                            <h4 class="text-sm font-bold text-brand-charcoal text-center mb-1.5">
+                                <i class="fa-solid fa-location-dot text-brand-burgundy mr-1.5"></i> Shop Address
+                            </h4>
+                            <p id="contactAddressText" class="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify">
+                                Shop No. 172, Vishnupriya Commercial Complex, Bonthapadu Bypass, Near TSR Ginning Mill, Guntur - 522 003, Andhra Pradesh.
+                            </p>
+                        </div>
+
+                        <!-- Phone & WhatsApp -->
+                        <div class="p-4 rounded-xl bg-white border border-brand-border">
+                            <h4 class="text-sm font-bold text-brand-charcoal text-center mb-2">
+                                <i class="fa-solid fa-phone text-brand-burgundy mr-1.5"></i> Mobile & WhatsApp
+                            </h4>
+                            <div class="flex flex-wrap items-center justify-center gap-2.5">
+                                <a id="contactPhoneLink" href="tel:+918096257489" class="px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-brand-ivory text-brand-charcoal border border-brand-border hover:border-brand-burgundy transition">
+                                    <i class="fa-solid fa-phone-volume text-brand-burgundy mr-1"></i> +91 8096257489
+                                </a>
+                                <button onclick="openWhatsAppWithText('Hello SSV MART, I would like to inquire about your products.')" class="px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-emerald-600 text-white hover:bg-emerald-700 transition cursor-pointer">
+                                    <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp Chat
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Official Email ID -->
+                        <div class="p-4 rounded-xl bg-white border border-brand-border text-center">
+                            <h4 class="text-sm font-bold text-brand-charcoal text-center mb-1.5">
+                                <i class="fa-solid fa-envelope text-brand-burgundy mr-1.5"></i> Email ID
+                            </h4>
+                            <a id="contactEmailLink" href="mailto:ssvmart@gmail.com" class="inline-flex items-center gap-2 text-xs sm:text-sm font-bold text-brand-burgundy hover:underline">
+                                <span>ssvmart@gmail.com</span>
+                            </a>
+                        </div>
+
+                        <!-- Exact Google Maps Location Link & Map Preview -->
+                        <div class="p-4 rounded-xl bg-white border border-brand-border space-y-3">
+                            <h4 class="text-sm font-bold text-brand-charcoal text-center">
+                                <i class="fa-solid fa-map-location-dot text-brand-burgundy mr-1.5"></i> Store Location on Google Maps
+                            </h4>
+                            <div class="rounded-xl overflow-hidden border border-brand-border h-44 bg-slate-100">
+                                <iframe
+                                    id="contactMapIframe"
+                                    title="SSV MART Guntur Location Map"
+                                    src="https://www.google.com/maps?q=Vishnupriya+Commercial+Complex,Bonthapadu+Bypass,Near+TSR+Ginning+Mill,Guntur+-+522003,Andhra+Pradesh&output=embed"
+                                    class="w-full h-full border-0"
+                                    loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"
+                                ></iframe>
+                            </div>
+                            <a
+                                id="contactMapLink"
+                                href="https://maps.app.goo.gl/1bS5JG7QDWrWmDRF9"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="flex items-center justify-center gap-2 w-full py-3 px-4 rounded-xl text-xs sm:text-sm font-bold text-white bg-brand-burgundy hover:bg-brand-burgundyDark shadow-xs transition"
+                            >
+                                <i class="fa-solid fa-diamond-turn-right"></i>
+                                <span>Open Exact Shop Location on Google Maps</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Lead Capture & WhatsApp Quote Form -->
+                <div class="lg:col-span-7 bg-brand-ivory p-6 sm:p-8 rounded-2xl border border-brand-border">
+                    <h3 class="text-xl font-bold text-brand-charcoal text-center mb-2">
+                        Get a Quote / Product Inquiry Form
+                    </h3>
+                    <p class="text-xs sm:text-sm text-slate-600 leading-relaxed text-justify mb-6">
+                        Fill in your contact details and choose the product you are interested in below. You can submit your inquiry online for our team to call you back, or send it directly via WhatsApp for an immediate response.
+                    </p>
+
+                    <form id="leadCaptureForm" onsubmit="handleLeadSubmit(event)" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-700 mb-1.5">
+                                    Your Name <span class="text-red-600">*</span>
+                                </label>
+                                <input
+                                    type="text"
+                                    id="leadName"
+                                    required
+                                    placeholder="Enter your full name"
+                                    class="w-full px-4 py-3 rounded-xl border border-brand-border bg-white text-sm focus:outline-none focus:border-brand-burgundy"
+                                >
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-700 mb-1.5">
+                                    Mobile Number <span class="text-red-600">*</span>
+                                </label>
+                                <input
+                                    type="tel"
+                                    id="leadMobile"
+                                    required
+                                    placeholder="Enter 10-digit mobile number"
+                                    class="w-full px-4 py-3 rounded-xl border border-brand-border bg-white text-sm focus:outline-none focus:border-brand-burgundy"
+                                >
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-700 mb-1.5">
+                                    Your Email Address
+                                </label>
+                                <input
+                                    type="email"
+                                    id="leadEmail"
+                                    placeholder="yourname@example.com"
+                                    class="w-full px-4 py-3 rounded-xl border border-brand-border bg-white text-sm focus:outline-none focus:border-brand-burgundy"
+                                >
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-700 mb-1.5">
+                                    Product Interested In <span class="text-red-600">*</span>
+                                </label>
+                                <select
+                                    id="leadProductSelect"
+                                    required
+                                    onchange="syncSelectedOptionToForm(this.value)"
+                                    class="w-full px-4 py-3 rounded-xl border border-brand-border bg-white text-sm focus:outline-none focus:border-brand-burgundy"
+                                >
+                                    <!-- Populated dynamically -->
+                                </select>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-bold uppercase text-slate-700 mb-1.5">
+                                Selected Specifications / Quantity Required
+                            </label>
+                            <textarea
+                                id="leadOptionsInput"
+                                rows="3"
+                                placeholder="e.g. Sub-option selected, preferred colors, size, and estimated quantity required..."
+                                class="w-full px-4 py-3 rounded-xl border border-brand-border bg-white text-sm focus:outline-none focus:border-brand-burgundy"
+                            ></textarea>
+                        </div>
+
+                        <div class="pt-2 grid grid-cols-1 sm:grid-cols-2 gap-3">
+                            <button
+                                type="submit"
+                                onclick="document.getElementById('leadCaptureForm').dataset.mode = 'online'"
+                                class="w-full py-3.5 px-5 rounded-xl font-bold text-sm text-white bg-brand-burgundy hover:bg-brand-burgundyDark shadow-sm transition cursor-pointer flex items-center justify-center gap-2"
+                            >
+                                <i class="fa-solid fa-paper-plane"></i>
+                                <span>Submit Inquiry Online</span>
+                            </button>
+                            <button
+                                type="submit"
+                                onclick="document.getElementById('leadCaptureForm').dataset.mode = 'whatsapp'"
+                                class="w-full py-3.5 px-5 rounded-xl font-bold text-sm text-white bg-emerald-600 hover:bg-emerald-700 shadow-sm transition cursor-pointer flex items-center justify-center gap-2"
+                            >
+                                <i class="fa-brands fa-whatsapp text-base"></i>
+                                <span>Send Lead on WhatsApp</span>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================================== -->
+    <!-- FOOTER WITH DISCREET OWNER LOGIN LINK                                 -->
+    <!-- ===================================================================== -->
+    <footer class="bg-brand-charcoal text-slate-300 py-10 border-t border-slate-800">
+        <div class="max-w-6xl mx-auto px-4 sm:px-6 space-y-4">
+            <h4 id="footerFirmHeading" class="text-lg font-bold text-white text-center">
+                SSV MART — THE RIGHT FIT
+            </h4>
+            <p id="footerFirmSummary" class="text-xs text-slate-400 text-justify max-w-2xl mx-auto leading-relaxed">
+                Quality & Assured Products in All Types of Yarn & Fabric. Shop No. 172, Vishnupriya Commercial Complex, Bonthapadu Bypass, Near TSR Ginning Mill, Guntur - 522 003, Andhra Pradesh. Mobile: +91 8096257489 | Email: ssvmart@gmail.com.
+            </p>
+            <div class="flex justify-center pt-1">
+                <a
+                    id="footerMapLink"
+                    href="https://maps.app.goo.gl/1bS5JG7QDWrWmDRF9"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-slate-800 hover:bg-brand-burgundy text-xs font-bold text-white border border-slate-700 transition"
+                >
+                    <i class="fa-solid fa-map-location-dot text-brand-gold"></i>
+                    <span>Open Exact Shop Location on Google Maps</span>
+                </a>
+            </div>
+            <div class="pt-3 border-t border-slate-800 flex flex-wrap items-center justify-between gap-4 text-xs text-slate-400">
+                <span id="footerCopyrightText">© SSV MART, Guntur. All Rights Reserved.</span>
+                <!-- Discreet Owner Login Link (Not shown in main header) -->
+                <button
+                    onclick="handleOwnerAccessClick()"
+                    class="inline-flex items-center gap-1.5 text-slate-400 hover:text-brand-gold transition cursor-pointer"
+                >
+                    <i class="fa-solid fa-lock text-[11px]"></i>
+                    <span id="footerOwnerBtnText">Owner Login</span>
+                </button>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===================================================================== -->
+    <!-- ONLINE VISITOR CHATBOT + WHATSAPP WIDGET                              -->
+    <!-- ===================================================================== -->
+    <div class="fixed bottom-5 right-5 z-40 flex flex-col items-end">
+        <!-- Chat Window -->
+        <div id="chatbotPanel" class="hidden w-[340px] sm:w-[380px] bg-white rounded-2xl shadow-2xl border border-brand-border overflow-hidden mb-3 flex flex-col">
+            <!-- Header -->
+            <div class="bg-brand-burgundy text-white px-4 py-3.5 flex items-center justify-between">
+                <div class="flex items-center gap-2.5">
+                    <span class="w-2.5 h-2.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                    <h4 class="text-sm font-bold text-white text-center">
+                        SSV MART Online Support
+                    </h4>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button
+                        onclick="continueChatOnWhatsApp()"
+                        class="px-2.5 py-1 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-[11px] font-bold text-white flex items-center gap-1 transition cursor-pointer"
+                        title="Continue on WhatsApp"
+                    >
+                        <i class="fa-brands fa-whatsapp"></i> WhatsApp
+                    </button>
+                    <button onclick="toggleChatbot(false)" class="text-white/80 hover:text-white px-1 cursor-pointer">
+                        <i class="fa-solid fa-xmark"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Interactive Online Chat Messages Container -->
+            <div id="chatMessagesList" class="p-4 bg-brand-ivory h-72 overflow-y-auto space-y-3 text-xs">
+                <!-- Populated dynamically -->
+            </div>
+
+            <!-- Quick Question Chips -->
+            <div class="px-3 py-2 bg-white border-t border-brand-border flex items-center gap-1.5 overflow-x-auto">
+                <button onclick="sendQuickChatQuestion('Show Products & Sub-Categories')" class="px-2.5 py-1 rounded-full bg-brand-ivory hover:bg-brand-goldSoft border border-brand-border text-[11px] font-semibold text-slate-700 whitespace-nowrap cursor-pointer">
+                    🧵 Products
+                </button>
+                <button onclick="sendQuickChatQuestion('Price & Bulk Quote')" class="px-2.5 py-1 rounded-full bg-brand-ivory hover:bg-brand-goldSoft border border-brand-border text-[11px] font-semibold text-slate-700 whitespace-nowrap cursor-pointer">
+                    💰 Get Quote
+                </button>
+                <button onclick="sendQuickChatQuestion('Shop Location & Email')" class="px-2.5 py-1 rounded-full bg-brand-ivory hover:bg-brand-goldSoft border border-brand-border text-[11px] font-semibold text-slate-700 whitespace-nowrap cursor-pointer">
+                    📍 Map & Email
+                </button>
+                <button onclick="continueChatOnWhatsApp()" class="px-2.5 py-1 rounded-full bg-emerald-50 hover:bg-emerald-100 border border-emerald-200 text-[11px] font-semibold text-emerald-800 whitespace-nowrap cursor-pointer">
+                    💬 WhatsApp
+                </button>
+            </div>
+
+            <!-- Online Message Input Bar -->
+            <form onsubmit="handleVisitorChatSubmit(event)" class="p-2.5 bg-white border-t border-brand-border flex items-center gap-2">
+                <input
+                    type="text"
+                    id="visitorChatInput"
+                    placeholder="Type your question or mobile number..."
+                    class="flex-1 px-3 py-2 rounded-xl border border-brand-border text-xs focus:outline-none focus:border-brand-burgundy"
+                >
+                <button type="submit" class="px-3.5 py-2 rounded-xl bg-brand-burgundy hover:bg-brand-burgundyDark text-white text-xs font-bold transition cursor-pointer">
+                    <i class="fa-solid fa-paper-plane"></i>
+                </button>
+            </form>
+        </div>
+
+        <!-- Floating Chat Trigger Button -->
+        <button
+            onclick="toggleChatbot()"
+            class="flex items-center gap-2.5 bg-brand-burgundy hover:bg-brand-burgundyDark text-white font-bold px-5 py-3.5 rounded-full shadow-xl border-2 border-white transition cursor-pointer"
+        >
+            <i class="fa-solid fa-comments text-lg"></i>
+            <span class="text-xs sm:text-sm">Chat Online / WhatsApp</span>
+        </button>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- SEPARATE OWNER LOGIN MODAL (PROTECTED BY PIN)                         -->
+    <!-- ===================================================================== -->
+    <div id="ownerLoginModal" class="fixed inset-0 z-50 hidden bg-slate-900/75 backdrop-blur-xs flex items-center justify-center p-4">
+        <div class="bg-white w-full max-w-sm rounded-2xl shadow-2xl border border-brand-border overflow-hidden">
+            <div class="bg-brand-burgundy text-white px-6 py-4 flex items-center justify-between">
+                <h3 class="text-base font-bold text-white text-center">
+                    <i class="fa-solid fa-user-shield mr-1.5"></i> SSV MART Owner Login
+                </h3>
+                <button onclick="closeOwnerLoginModal()" class="text-white/80 hover:text-white cursor-pointer">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
+            <form onsubmit="handleOwnerLoginSubmit(event)" class="p-6 space-y-4">
+                <p class="text-xs text-slate-600 leading-relaxed text-justify">
+                    Enter your Owner PIN to access the SSV MART Admin Dashboard to upload the firm logo, manage products, upload multiple sliding images, and view customer leads. (Default PIN: <strong>8096</strong>)
+                </p>
+                <div>
+                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1.5">Owner Security PIN</label>
+                    <input
+                        type="password"
+                        id="ownerPinInput"
+                        required
+                        placeholder="Enter PIN (e.g. 8096)"
+                        class="w-full px-4 py-2.5 rounded-xl border border-brand-border text-center font-bold tracking-widest text-base focus:outline-none focus:border-brand-burgundy"
+                    >
+                </div>
+                <div id="ownerLoginError" class="hidden text-xs font-bold text-red-600 text-center">
+                    Incorrect PIN. Please try again (Default is 8096).
+                </div>
+                <div class="flex items-center justify-end gap-2 pt-1">
+                    <button type="button" onclick="closeOwnerLoginModal()" class="px-4 py-2.5 rounded-xl text-xs font-bold text-slate-600 bg-slate-100 hover:bg-slate-200 cursor-pointer">
+                        Cancel
+                    </button>
+                    <button type="submit" class="px-6 py-2.5 rounded-xl text-xs font-bold text-white bg-brand-burgundy hover:bg-brand-burgundyDark cursor-pointer">
+                        Login to Dashboard
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===================================================================== -->
+    <!-- OWNER ADMIN PORTAL DASHBOARD (ONLY VISIBLE AFTER OWNER LOGIN)         -->
+    <!-- ===================================================================== -->
+    <div id="ownerDashboardModal" class="fixed inset-0 z-50 hidden bg-slate-900/80 backdrop-blur-xs flex items-center justify-center p-2 sm:p-4 overflow-y-auto">
+        <div class="bg-white w-full max-w-5xl rounded-2xl shadow-2xl border border-brand-border overflow-hidden my-auto max-h-[92vh] flex flex-col">
+            <!-- Modal Header -->
+            <div class="bg-brand-burgundy text-white px-6 py-4 flex flex-wrap items-center justify-between gap-3">
+                <div class="flex items-center gap-2.5">
+                    <i class="fa-solid fa-sliders text-brand-gold"></i>
+                    <h3 class="text-lg font-bold text-white text-center">
+                        SSV MART — Owner Management Portal
+                    </h3>
+                </div>
+                <div class="flex items-center gap-2">
+                    <button onclick="logoutOwner()" class="px-3 py-1.5 rounded-lg bg-white/15 hover:bg-white/25 text-xs font-bold text-white transition cursor-pointer">
+                        <i class="fa-solid fa-right-from-bracket mr-1"></i> Logout
+                    </button>
+                    <button onclick="closeOwnerDashboard()" class="text-white/80 hover:text-white px-2 cursor-pointer" title="Close Window">
+                        <i class="fa-solid fa-xmark text-xl"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Dashboard Navigation Tabs -->
+            <div class="bg-brand-ivory px-6 pt-3 border-b border-brand-border flex flex-wrap items-center gap-2">
+                <button
+                    onclick="switchOwnerTab('products')"
+                    id="tabBtn-products"
+                    class="px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-bold bg-white text-brand-burgundy border-t border-x border-brand-border cursor-pointer"
+                >
+                    <i class="fa-solid fa-boxes-stacked mr-1.5"></i> Manage Products & Images
+                </button>
+                <button
+                    onclick="switchOwnerTab('branding')"
+                    id="tabBtn-branding"
+                    class="px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-brand-burgundy cursor-pointer"
+                >
+                    <i class="fa-solid fa-location-dot mr-1.5"></i> Firm Logo & Location / Settings
+                </button>
+                <button
+                    onclick="switchOwnerTab('leads')"
+                    id="tabBtn-leads"
+                    class="px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-brand-burgundy cursor-pointer"
+                >
+                    <i class="fa-solid fa-inbox mr-1.5"></i> Customer Leads (<span id="ownerLeadsCount">0</span>)
+                </button>
+            </div>
+
+            <!-- Tab Content Container -->
+            <div class="p-6 overflow-y-auto flex-1 space-y-6">
+
+                <!-- TAB 1: MANAGE PRODUCTS, SUB-CATEGORIES, MULTI-IMAGES & SPECS -->
+                <div id="ownerTab-products" class="space-y-6">
+                    <div class="flex flex-wrap items-center justify-between gap-3 bg-brand-ivory p-4 rounded-xl border border-brand-border">
+                        <div>
+                            <h4 class="text-base font-bold text-brand-charcoal text-center sm:text-left">
+                                Product Catalog & Multi-Image Sliders
+                            </h4>
+                            <p class="text-xs text-slate-600 text-justify">
+                                Add new products, organize sub-categories, add specifications, and upload multiple photos per product (photos automatically slide from right to left on the website).
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button
+                                onclick="openProductEditor()"
+                                class="px-4 py-2.5 rounded-xl text-xs font-bold text-white bg-brand-burgundy hover:bg-brand-burgundyDark shadow-xs transition cursor-pointer"
+                            >
+                                <i class="fa-solid fa-plus mr-1"></i> Add New Product
+                            </button>
+                            <button
+                                onclick="restoreDefaultCatalog()"
+                                class="px-3 py-2.5 rounded-xl text-xs font-semibold text-slate-700 bg-white border border-brand-border hover:bg-slate-50 transition cursor-pointer"
+                            >
+                                Reset Defaults
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Product Editor Form (Hidden until Add/Edit clicked) -->
+                    <div id="ownerProductEditorBox" class="hidden bg-brand-ivory p-5 sm:p-6 rounded-2xl border-2 border-brand-burgundy space-y-5">
+                        <div class="flex items-center justify-between border-b border-brand-border pb-3">
+                            <h4 id="editorFormHeading" class="text-base font-bold text-brand-burgundy text-center">
+                                Add / Edit Product
+                            </h4>
+                            <button type="button" onclick="closeProductEditor()" class="text-xs font-bold text-slate-500 hover:text-slate-800 cursor-pointer">
+                                <i class="fa-solid fa-xmark mr-1"></i> Close Editor
+                            </button>
+                        </div>
+
+                        <form id="ownerProductForm" onsubmit="handleSaveProduct(event)" class="space-y-5">
+                            <input type="hidden" id="editProductId" value="">
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Product Title *</label>
+                                    <input
+                                        type="text"
+                                        id="editProductName"
+                                        required
+                                        placeholder="e.g. Industrial Yarn & Thread Spools"
+                                        class="w-full px-3.5 py-2.5 rounded-xl border border-brand-border bg-white text-sm"
+                                    >
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Sub-Category *</label>
+                                    <input
+                                        type="text"
+                                        id="editProductCategory"
+                                        required
+                                        placeholder="e.g. Industrial Yarns / Woven Fabrics / Sacks"
+                                        class="w-full px-3.5 py-2.5 rounded-xl border border-brand-border bg-white text-sm"
+                                    >
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Product Description *</label>
+                                <textarea
+                                    id="editProductDesc"
+                                    rows="2"
+                                    required
+                                    placeholder="Describe the material, quality, and industrial/commercial usage..."
+                                    class="w-full px-3.5 py-2.5 rounded-xl border border-brand-border bg-white text-sm"
+                                ></textarea>
+                            </div>
+
+                            <!-- Multi-Image Uploader for Right-to-Left Slider -->
+                            <div class="bg-white p-4 rounded-xl border border-brand-border space-y-3">
+                                <div class="flex flex-wrap items-center justify-between gap-2">
+                                    <div>
+                                        <span class="block text-xs font-bold uppercase text-slate-700">
+                                            <i class="fa-solid fa-images text-brand-burgundy mr-1"></i> Product Photos (Right-to-Left Slider)
+                                        </span>
+                                        <span class="text-[11px] text-slate-500">
+                                            Upload multiple images from your device or paste an image URL. They will slide automatically from right to left.
+                                        </span>
+                                    </div>
+                                    <label class="px-3.5 py-2 rounded-xl bg-brand-burgundy hover:bg-brand-burgundyDark text-white text-xs font-bold cursor-pointer inline-flex items-center gap-1.5">
+                                        <i class="fa-solid fa-upload"></i>
+                                        <span>Upload Photos</span>
+                                        <input
+                                            type="file"
+                                            id="multiImageUploadInput"
+                                            accept="image/*"
+                                            multiple
+                                            class="hidden"
+                                            onchange="handleMultiImageFilesUpload(event)"
+                                        >
+                                    </label>
+                                </div>
+
+                                <div class="flex items-center gap-2">
+                                    <input
+                                        type="url"
+                                        id="addImageByUrlInput"
+                                        placeholder="Or paste an image URL here (https://...)"
+                                        class="flex-1 px-3 py-2 rounded-lg border border-brand-border text-xs bg-brand-ivory"
+                                    >
+                                    <button
+                                        type="button"
+                                        onclick="handleAddImageByUrl()"
+                                        class="px-3.5 py-2 rounded-lg bg-slate-800 hover:bg-slate-900 text-white text-xs font-bold cursor-pointer"
+                                    >
+                                        Add URL
+                                    </button>
+                                </div>
+
+                                <div id="editorImagesPreviewList" class="grid grid-cols-2 sm:grid-cols-4 gap-3 pt-1">
+                                    <!-- Populated dynamically -->
+                                </div>
+                            </div>
+
+                            <!-- Product Specifications Editor -->
+                            <div class="bg-white p-4 rounded-xl border border-brand-border space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xs font-bold uppercase text-slate-700">
+                                        <i class="fa-solid fa-list-check text-brand-burgundy mr-1"></i> Technical Specifications
+                                    </span>
+                                    <button
+                                        type="button"
+                                        onclick="addSpecEditorRow()"
+                                        class="px-3 py-1.5 rounded-lg bg-brand-ivory hover:bg-brand-goldSoft border border-brand-border text-brand-burgundy text-xs font-bold cursor-pointer"
+                                    >
+                                        + Add Specification
+                                    </button>
+                                </div>
+                                <div id="editorSpecsContainer" class="space-y-2">
+                                    <!-- Populated dynamically -->
+                                </div>
+                            </div>
+
+                            <!-- Selectable Option Groups Editor -->
+                            <div class="bg-white p-4 rounded-xl border border-brand-border space-y-3">
+                                <div class="flex items-center justify-between">
+                                    <span class="text-xs font-bold uppercase text-slate-700">
+                                        <i class="fa-solid fa-Sliders text-brand-burgundy mr-1"></i> Selectable Options (Colors, Sizes, Types)
+                                    </span>
+                                    <button
+                                        type="button"
+                                        onclick="addOptionEditorRow()"
+                                        class="px-3 py-1.5 rounded-lg bg-brand-ivory hover:bg-brand-goldSoft border border-brand-border text-brand-burgundy text-xs font-bold cursor-pointer"
+                                    >
+                                        + Add Option Group
+                                    </button>
+                                </div>
+                                <div id="editorOptionsContainer" class="space-y-2">
+                                    <!-- Populated dynamically -->
+                                </div>
+                            </div>
+
+                            <div class="flex items-center justify-end gap-2 pt-2">
+                                <button
+                                    type="button"
+                                    onclick="closeProductEditor()"
+                                    class="px-4 py-2.5 rounded-xl bg-white border border-brand-border text-xs font-bold text-slate-600 hover:bg-slate-50 cursor-pointer"
+                                >
+                                    Cancel
+                                </button>
+                                <button
+                                    type="submit"
+                                    class="px-6 py-2.5 rounded-xl bg-brand-burgundy hover:bg-brand-burgundyDark text-white text-xs font-bold shadow-xs cursor-pointer"
+                                >
+                                    <i class="fa-solid fa-floppy-disk mr-1"></i> Save Product
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Existing Products List in Owner Dashboard -->
+                    <div id="ownerProductsTableList" class="space-y-3">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+
+                <!-- TAB 2: FIRM LOGO, LOCATION, GOOGLE MAPS & CONTACT SETTINGS -->
+                <div id="ownerTab-branding" class="hidden space-y-6">
+                    <form onsubmit="handleSaveFirmSettings(event)" class="bg-brand-ivory p-5 sm:p-6 rounded-2xl border border-brand-border space-y-6">
+                        <div class="space-y-1">
+                            <h4 class="text-base sm:text-lg font-bold text-brand-burgundy text-center">
+                                Firm Logo, Shop Location & Contact Settings
+                            </h4>
+                            <p class="text-xs text-slate-600 text-justify">
+                                Update your official firm logo, business name, contact details, physical shop address, and exact Google Maps location below. Saving changes immediately updates the website Contact section, embedded map, footer, and chatbot.
+                            </p>
+                        </div>
+
+                        <!-- 1. Firm Logo Upload -->
+                        <div class="bg-white p-4 sm:p-5 rounded-xl border border-brand-border flex flex-col sm:flex-row items-center gap-5">
+                            <div id="ownerLogoPreviewBox" class="w-24 h-24 rounded-2xl bg-white border border-brand-border flex items-center justify-center overflow-hidden shrink-0 p-1.5 shadow-2xs">
+                                <!-- Logo preview -->
+                            </div>
+                            <div class="flex-1 space-y-2.5 w-full">
+                                <h4 class="text-xs font-bold uppercase text-slate-700 text-center sm:text-left">
+                                    <i class="fa-solid fa-image text-brand-burgundy mr-1"></i> Official Firm Logo
+                                </h4>
+                                <p class="text-xs text-slate-500 text-justify">
+                                    Upload the official SSV MART logo image (`1000441567.jpg` / `logo.jpg`) from your computer or phone, or paste a direct image URL below.
+                                </p>
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <label class="px-4 py-2 rounded-xl bg-brand-burgundy hover:bg-brand-burgundyDark text-white text-xs font-bold cursor-pointer inline-flex items-center gap-1.5 shadow-2xs">
+                                        <i class="fa-solid fa-upload"></i>
+                                        <span>Upload Logo File</span>
+                                        <input type="file" accept="image/*" class="hidden" onchange="handleOwnerLogoUpload(event)">
+                                    </label>
+                                    <button type="button" onclick="resetDefaultLogo()" class="px-3 py-2 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-700 text-xs font-semibold cursor-pointer">
+                                        Use Official Handshake Emblem
+                                    </button>
+                                </div>
+                                <div class="flex items-center gap-2 pt-1">
+                                    <input
+                                        type="text"
+                                        id="customLogoUrlInput"
+                                        placeholder="Or enter logo image URL or file name (e.g. logo.jpg)"
+                                        class="flex-1 px-3 py-2 rounded-lg border border-brand-border text-xs bg-brand-ivory"
+                                    >
+                                    <button
+                                        type="button"
+                                        onclick="applyCustomLogoUrl()"
+                                        class="px-3.5 py-2 rounded-lg bg-slate-800 hover:bg-slate-900 text-white text-xs font-bold cursor-pointer shrink-0"
+                                    >
+                                        Apply Logo URL
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 2. Firm Identity & Contact Channels -->
+                        <div class="bg-white p-4 sm:p-5 rounded-xl border border-brand-border space-y-4">
+                            <h4 class="text-sm font-bold text-brand-charcoal text-center">
+                                <i class="fa-solid fa-address-card text-brand-burgundy mr-1"></i> Firm Name, Phone & Email Details
+                            </h4>
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Firm Name *</label>
+                                    <input
+                                        type="text"
+                                        id="settingFirmName"
+                                        required
+                                        placeholder="SSV MART"
+                                        class="w-full px-3.5 py-2.5 rounded-xl border border-brand-border bg-brand-ivory text-sm font-bold"
+                                    >
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Firm Tagline *</label>
+                                    <input
+                                        type="text"
+                                        id="settingFirmTagline"
+                                        required
+                                        placeholder="THE RIGHT FIT"
+                                        class="w-full px-3.5 py-2.5 rounded-xl border border-brand-border bg-brand-ivory text-sm"
+                                    >
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">WhatsApp / Mobile Number (With 91) *</label>
+                                    <input
+                                        type="text"
+                                        id="settingFirmPhone"
+                                        required
+                                        placeholder="918096257489"
+                                        class="w-full px-3.5 py-2.5 rounded-xl border border-brand-border bg-brand-ivory text-sm"
+                                    >
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">Official Email ID *</label>
+                                    <input
+                                        type="email"
+                                        id="settingFirmEmail"
+                                        required
+                                        placeholder="ssvmart@gmail.com"
+                                        class="w-full px-3.5 py-2.5 rounded-xl border border-brand-border bg-brand-ivory text-sm"
+                                    >
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 3. Dedicated Firm Location & Google Maps Editor -->
+                        <div class="bg-white p-4 sm:p-5 rounded-xl border-2 border-brand-gold/60 space-y-4">
+                            <div class="flex flex-wrap items-center justify-between gap-2 border-b border-brand-border pb-3">
+                                <h4 class="text-sm font-bold text-brand-burgundy text-center">
+                                    <i class="fa-solid fa-map-location-dot mr-1.5"></i> Shop Location & Google Maps Editor
+                                </h4>
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <button
+                                        type="button"
+                                        onclick="useOwnerCurrentGpsLocation()"
+                                        class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold transition cursor-pointer inline-flex items-center gap-1.5"
+                                    >
+                                        <i class="fa-solid fa-location-crosshairs"></i>
+                                        <span>Use My Current GPS Location</span>
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onclick="resetDefaultShopLocation()"
+                                        class="px-3 py-1.5 rounded-lg bg-brand-ivory hover:bg-brand-goldSoft text-slate-700 border border-brand-border text-xs font-semibold transition cursor-pointer"
+                                    >
+                                        Reset Default Shop Location
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-700 mb-1">
+                                    Shop Physical Address *
+                                </label>
+                                <textarea
+                                    id="settingFirmAddress"
+                                    rows="2"
+                                    required
+                                    placeholder="Shop No. 172, Vishnupriya Commercial Complex, Bonthapadu Bypass, Near TSR Ginning Mill, Guntur - 522 003, Andhra Pradesh."
+                                    class="w-full px-3.5 py-2.5 rounded-xl border border-brand-border bg-brand-ivory text-sm"
+                                ></textarea>
+                            </div>
+
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">
+                                        Exact Google Maps Share Link (URL) *
+                                    </label>
+                                    <div class="flex items-center gap-2">
+                                        <input
+                                            type="url"
+                                            id="settingFirmMapUrl"
+                                            required
+                                            placeholder="https://maps.app.goo.gl/1bS5JG7QDWrWmDRF9"
+                                            class="flex-1 px-3.5 py-2.5 rounded-xl border border-brand-border bg-brand-ivory text-sm"
+                                        >
+                                        <button
+                                            type="button"
+                                            onclick="testOwnerMapUrl()"
+                                            class="px-3 py-2.5 rounded-xl bg-slate-800 hover:bg-slate-900 text-white text-xs font-bold shrink-0 cursor-pointer"
+                                            title="Open Link in New Tab"
+                                        >
+                                            <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                        </button>
+                                    </div>
+                                    <p class="text-[11px] text-slate-500 mt-1 text-justify">
+                                        This link opens when customers click "Open Exact Shop Location on Google Maps" in the Contact section, Footer, or Chatbot.
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <label class="block text-xs font-bold uppercase text-slate-700 mb-1">
+                                        Embedded Map Search Query or GPS Coordinates *
+                                    </label>
+                                    <div class="flex items-center gap-2">
+                                        <input
+                                            type="text"
+                                            id="settingFirmMapQuery"
+                                            required
+                                            oninput="updateOwnerMapPreview()"
+                                            placeholder="Vishnupriya Commercial Complex, Bonthapadu Bypass, Near TSR Ginning Mill, Guntur"
+                                            class="flex-1 px-3.5 py-2.5 rounded-xl border border-brand-border bg-brand-ivory text-sm"
+                                        >
+                                        <button
+                                            type="button"
+                                            onclick="updateOwnerMapPreview()"
+                                            class="px-3 py-2.5 rounded-xl bg-brand-goldSoft hover:bg-amber-100 text-brand-burgundy border border-brand-border text-xs font-bold shrink-0 cursor-pointer"
+                                            title="Refresh Map Preview"
+                                        >
+                                            <i class="fa-solid fa-rotate"></i>
+                                        </button>
+                                    </div>
+                                    <p class="text-[11px] text-slate-500 mt-1 text-justify">
+                                        Enter a landmark/address or GPS coordinates (e.g. 16.3067, 80.4365) to control the interactive map preview embedded on the page.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Live Embedded Map Preview Inside Owner Portal -->
+                            <div class="space-y-1.5">
+                                <span class="block text-[11px] font-bold uppercase text-slate-500">
+                                    Live Embedded Map Preview:
+                                </span>
+                                <div class="rounded-xl overflow-hidden border border-brand-border h-40 bg-slate-100">
+                                    <iframe
+                                        id="ownerMapPreviewIframe"
+                                        title="Owner Live Map Preview"
+                                        src="https://www.google.com/maps?q=Vishnupriya+Commercial+Complex,Bonthapadu+Bypass,Near+TSR+Ginning+Mill,Guntur+-+522003,Andhra+Pradesh&output=embed"
+                                        class="w-full h-full border-0"
+                                        loading="lazy"
+                                    ></iframe>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- 4. Security PIN & Save Action -->
+                        <div class="bg-white p-4 rounded-xl border border-brand-border grid grid-cols-1 sm:grid-cols-2 gap-4 items-end">
+                            <div>
+                                <label class="block text-xs font-bold uppercase text-slate-700 mb-1">
+                                    <i class="fa-solid fa-key text-brand-burgundy mr-1"></i> Owner Login Security PIN *
+                                </label>
+                                <input
+                                    type="text"
+                                    id="settingOwnerPin"
+                                    required
+                                    class="w-full px-3.5 py-2.5 rounded-xl border border-brand-border bg-brand-ivory text-sm font-bold tracking-widest"
+                                >
+                            </div>
+                            <div class="flex flex-wrap items-center justify-end gap-2">
+                                <button
+                                    type="button"
+                                    onclick="exportStandaloneHtmlForGithub()"
+                                    class="w-full sm:w-auto px-4 py-3 rounded-xl text-xs font-bold text-brand-burgundy bg-brand-goldSoft hover:bg-amber-100 border border-brand-border cursor-pointer"
+                                    title="Download index.html with your uploaded logo and products permanently saved for GitHub & Vercel"
+                                >
+                                    <i class="fa-solid fa-download mr-1"></i> Download index.html for GitHub
+                                </button>
+                                <button type="submit" class="w-full sm:w-auto px-6 py-3 rounded-xl text-xs sm:text-sm font-bold text-white bg-brand-burgundy hover:bg-brand-burgundyDark shadow-sm cursor-pointer">
+                                    <i class="fa-solid fa-floppy-disk mr-1.5"></i> Save Location & Firm Settings
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!-- TAB 3: CAPTURED LEADS -->
+                <div id="ownerTab-leads" class="hidden space-y-4">
+                    <div class="flex flex-wrap items-center justify-between gap-2 bg-brand-ivory p-4 rounded-xl border border-brand-border">
+                        <div>
+                            <h4 class="text-base font-bold text-brand-charcoal text-center sm:text-left">
+                                Customer Inquiries & Captured Leads
+                            </h4>
+                            <p class="text-xs text-slate-600 text-justify">
+                                View all visitors who inquired via the website quote form or online chatbot. Click to reply on WhatsApp or Email, or download as an Excel CSV file.
+                            </p>
+                        </div>
+                        <div class="flex items-center gap-2">
+                            <button onclick="exportLeadsCsv()" class="px-3.5 py-2 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold cursor-pointer">
+                                <i class="fa-solid fa-file-csv mr-1"></i> Download CSV
+                            </button>
+                            <button onclick="clearAllLeads()" class="px-3 py-2 rounded-xl bg-red-50 hover:bg-red-100 text-red-600 border border-red-200 text-xs font-bold cursor-pointer">
+                                Clear All
+                            </button>
+                        </div>
+                    </div>
+
+                    <div id="ownerLeadsContainer" class="space-y-3">
+                        <!-- Populated dynamically -->
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- TOAST NOTIFICATION CONTAINER -->
+    <div id="toastBox" class="fixed top-5 right-5 z-50 space-y-2 pointer-events-none"></div>
+
+    <!-- ===================================================================== -->
+    <!-- APPLICATION JAVASCRIPT                                                -->
+    <!-- ===================================================================== -->
+    <script>
+        // Storage Keys
+        const STORAGE_KEY_PRODUCTS = "ssvmart_v3_products";
+        const STORAGE_KEY_LEADS = "ssvmart_v3_leads";
+        const STORAGE_KEY_SETTINGS = "ssvmart_v3_settings";
+        const STORAGE_KEY_LOGO = "ssvmart_v3_logo";
+
+        // Default Firm Settings (Including Email ssvmart@gmail.com & Updated Exact Google Maps Link)
+        const DEFAULT_SETTINGS = {
+            firmName: "SSV MART",
+            tagline: "THE RIGHT FIT",
+            email: "ssvmart@gmail.com",
+            phone: "918096257489",
+            displayPhone: "+91 8096257489",
+            mapUrl: "https://maps.app.goo.gl/1bS5JG7QDWrWmDRF9",
+            mapEmbedQuery: "Vishnupriya Commercial Complex, Bonthapadu Bypass, Near TSR Ginning Mill, Guntur - 522003, Andhra Pradesh",
+            address: "Shop No. 172, Vishnupriya Commercial Complex, Bonthapadu Bypass, Near TSR Ginning Mill, Guntur - 522 003, Andhra Pradesh.",
+            ownerPin: "8096"
+        };
+
+        // Default Products (Each has MULTIPLE realistic images so Right-to-Left sliding is active immediately)
+        const DEFAULT_PRODUCTS = [
+            {
+                id: "prod-yarn",
+                name: "Industrial Yarn & Thread Spools",
+                subCategory: "Industrial Yarns",
+                images: [
+                    "https://images.unsplash.com/photo-1584992236310-6edddc08acff?auto=format&fit=crop&w=900&q=80",
+                    "https://images.unsplash.com/photo-1618220179428-22790b461013?auto=format&fit=crop&w=900&q=80",
+                    "https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=900&q=80"
+                ],
+                description: "High-tenacity multi-color yarn spools, cones, and industrial stitching threads suitable for weaving, bag closing, and textile manufacturing. Engineered for knot-free operation and superior tensile strength.",
+                specifications: [
+                    { label: "Material", value: "PP / Polyester / Cotton Blend" },
+                    { label: "Cone Weight", value: "250g to 2.5 Kg Cones" },
+                    { label: "Application", value: "Weaving & Bag Stitching" }
+                ],
+                optionGroups: [
+                    {
+                        groupName: "Yarn Type",
+                        values: ["PP Multifilament Yarn", "Polyester Thread Cones", "Cotton Blended Yarn", "Bag Closer Thread"]
+                    },
+                    {
+                        groupName: "Color Options",
+                        values: ["Multi-Color Assorted", "White", "Red", "Royal Blue", "Green", "Yellow", "Black"]
+                    }
+                ]
+            },
+            {
+                id: "prod-rolls",
+                name: "PP Woven Fabric Rolls",
+                subCategory: "Woven Fabrics",
+                images: [
+                    "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?auto=format&fit=crop&w=900&q=80",
+                    "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=900&q=80",
+                    "https://images.unsplash.com/photo-1579656381226-5fc0f0100c3b?auto=format&fit=crop&w=900&q=80"
+                ],
+                description: "Heavy-duty tubular and flat polypropylene woven fabric rolls built for industrial wrapping, tarpaulins, and custom sack production. Features a tight, uniform weave with optional moisture-resistant lamination.",
+                specifications: [
+                    { label: "Fabric GSM", value: "55 GSM to 140 GSM" },
+                    { label: "Roll Width", value: "18 Inch to 60 Inch" },
+                    { label: "Weave Finish", value: "Unlaminated / Laminated" }
+                ],
+                optionGroups: [
+                    {
+                        groupName: "Roll Format",
+                        values: ["Tubular Woven Roll", "Flat Sheet Roll", "Laminated Moisture-Proof Roll"]
+                    },
+                    {
+                        groupName: "Width Selection",
+                        values: ["18 - 24 Inch", "26 - 36 Inch", "40+ Inch Wide", "Custom Width"]
+                    }
+                ]
+            },
+            {
+                id: "prod-sacks",
+                name: "Heavy-Duty PP Woven Sacks",
+                subCategory: "Packaging Sacks",
+                images: [
+                    "https://images.unsplash.com/photo-1595246140625-573b715d11dc?auto=format&fit=crop&w=900&q=80",
+                    "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=900&q=80",
+                    "https://images.unsplash.com/photo-1553413077-190dd305871c?auto=format&fit=crop&w=900&q=80"
+                ],
+                description: "Durable, tear-resistant polypropylene woven sacks and bulk packaging bags available in vibrant colors. Ideal for packing agricultural produce, rice, grains, pulses, fertilizers, and industrial materials.",
+                specifications: [
+                    { label: "Material", value: "Virgin / Heavy-Duty PP Woven" },
+                    { label: "Load Capacity", value: "25 Kg, 50 Kg, 75 Kg & 100 Kg" },
+                    { label: "Stitching", value: "Double-Folded Bottom Seam" }
+                ],
+                optionGroups: [
+                    {
+                        groupName: "Bag Capacity",
+                        values: ["25 Kg Sack", "50 Kg Standard Sack", "75 Kg / 100 Kg Jumbo Sack", "Custom Size"]
+                    },
+                    {
+                        groupName: "Bag Color",
+                        values: ["White", "Yellow", "Green", "Blue", "Red", "Assorted Bundle"]
+                    }
+                ]
+            },
+            {
+                id: "prod-totes",
+                name: "Eco-Friendly Jute & Canvas Tote Bags",
+                subCategory: "Eco Tote Bags",
+                images: [
+                    "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?auto=format&fit=crop&w=900&q=80",
+                    "https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=900&q=80",
+                    "https://images.unsplash.com/photo-1591561954557-26941169b49e?auto=format&fit=crop&w=900&q=80"
+                ],
+                description: "Reusable, eco-friendly multi-color jute and canvas shopping tote bags with reinforced soft padded handles and wide gussets. Perfect for retail stores, corporate gifting, wedding return gifts, and events.",
+                specifications: [
+                    { label: "Fabric", value: "Natural Laminated Jute & Canvas" },
+                    { label: "Handle Type", value: "Sturdy Cotton Webbing Handles" },
+                    { label: "Order Type", value: "Wholesale & Custom Bulk Packs" }
+                ],
+                optionGroups: [
+                    {
+                        groupName: "Bag Size",
+                        values: ["Small Return-Gift Bag", "Medium Shopping Tote", "Large Gusset Carry Bag"]
+                    },
+                    {
+                        groupName: "Color Choice",
+                        values: ["Yellow", "Pink", "Blue", "Green", "Orange", "Red", "Assorted Colors"]
+                    }
+                ]
+            }
+        ];
+
+        // State Variables
+        let firmSettings = { ...DEFAULT_SETTINGS };
+        let products = [];
+        let leads = [];
+        let activeSubCategory = "All Products";
+        let selectedOptionsMap = {};
+        let isOwnerAuthenticated = false;
+
+        // Carousel State: tracks current slide index per product ID
+        let carouselIndexMap = {};
+        let carouselIntervalId = null;
+
+        // Editor Temporary Images Array
+        let editorImagesList = [];
+
+        // Online Chatbot State
+        let chatHistory = [
+            {
+                sender: "bot",
+                text: "Namaste! Welcome to SSV MART 👋 We supply all types of Industrial Yarn, PP Woven Fabric Rolls, Woven Sacks, and Eco Jute Tote Bags in Guntur. How can we help you today?"
+            }
+        ];
+
+        // =====================================================================
+        // INITIALIZATION & STATE PERSISTENCE
+        // =====================================================================
+        function initApp() {
+            // Load Settings
+            try {
+                const savedSettings = localStorage.getItem(STORAGE_KEY_SETTINGS);
+                if (savedSettings) {
+                    const parsed = JSON.parse(savedSettings);
+                    // Automatically migrate previous default map link to the new exact shop location link
+                    if (!parsed.mapUrl || parsed.mapUrl === "https://maps.app.goo.gl/iXwUVW58KtjyaoYc6") {
+                        parsed.mapUrl = DEFAULT_SETTINGS.mapUrl;
+                    }
+                    if (!parsed.mapEmbedQuery) {
+                        parsed.mapEmbedQuery = DEFAULT_SETTINGS.mapEmbedQuery;
+                    }
+                    firmSettings = { ...DEFAULT_SETTINGS, ...parsed };
+                    localStorage.setItem(STORAGE_KEY_SETTINGS, JSON.stringify(firmSettings));
+                }
+            } catch (e) {
+                firmSettings = { ...DEFAULT_SETTINGS };
+            }
+
+            // Load Products
+            try {
+                const savedProds = localStorage.getItem(STORAGE_KEY_PRODUCTS);
+                if (savedProds) {
+                    products = JSON.parse(savedProds);
+                    // Migrate any single imageUrl to images array if needed
+                    products.forEach(p => {
+                        if (!Array.isArray(p.images) || p.images.length === 0) {
+                            p.images = p.imageUrl ? [p.imageUrl] : ["https://placehold.co/600x400/FAF8F5/800020?text=" + encodeURIComponent(p.name)];
+                        }
+                        if (!p.subCategory) p.subCategory = "General";
+                        if (!Array.isArray(p.specifications)) p.specifications = [];
+                    });
+                } else {
+                    products = JSON.parse(JSON.stringify(DEFAULT_PRODUCTS));
+                }
+            } catch (e) {
+                products = JSON.parse(JSON.stringify(DEFAULT_PRODUCTS));
+            }
+
+            // Load Leads
+            try {
+                const savedLeads = localStorage.getItem(STORAGE_KEY_LEADS);
+                leads = savedLeads ? JSON.parse(savedLeads) : [];
+            } catch (e) {
+                leads = [];
+            }
+
+            applyFirmSettingsToDOM();
+            renderLogo();
+            renderSubCategoryPills();
+            renderProductsGrid();
+            startRightToLeftCarouselTimer();
+            updateLeadsCountUI();
+            renderChatMessages();
+        }
+
+        function saveProductsState() {
+            try {
+                localStorage.setItem(STORAGE_KEY_PRODUCTS, JSON.stringify(products));
+            } catch (e) {
+                showToast("Images saved for current session.", "info");
+            }
+        }
+
+        function saveLeadsState() {
+            try {
+                localStorage.setItem(STORAGE_KEY_LEADS, JSON.stringify(leads));
+            } catch (e) {}
+            updateLeadsCountUI();
+        }
+
+        function saveFirmSettingsState() {
+            try {
+                localStorage.setItem(STORAGE_KEY_SETTINGS, JSON.stringify(firmSettings));
+            } catch (e) {}
+            applyFirmSettingsToDOM();
+        }
+
+        function buildMapEmbedUrl(queryOrAddress) {
+            const q = (queryOrAddress || DEFAULT_SETTINGS.mapEmbedQuery || DEFAULT_SETTINGS.address).trim();
+            return `https://www.google.com/maps?q=${encodeURIComponent(q)}&output=embed`;
+        }
+
+        function applyFirmSettingsToDOM() {
+            const firmName = firmSettings.firmName || DEFAULT_SETTINGS.firmName;
+            const tagline = firmSettings.tagline || DEFAULT_SETTINGS.tagline;
+            const cleanDigits = (firmSettings.phone || DEFAULT_SETTINGS.phone).replace(/\D/g, '');
+            const formattedPhone = cleanDigits.length === 12 && cleanDigits.startsWith('91')
+                ? `+91 ${cleanDigits.slice(2)}`
+                : `+${cleanDigits}`;
+            firmSettings.displayPhone = formattedPhone;
+
+            // Header, Hero & Footer Brand Text
+            const headerNameEl = document.getElementById('headerFirmName');
+            const headerTaglineEl = document.getElementById('headerFirmTagline');
+            const heroBadgeEl = document.getElementById('heroFirmBadge');
+            const footerHeadingEl = document.getElementById('footerFirmHeading');
+            const footerSummaryEl = document.getElementById('footerFirmSummary');
+            const footerCopyEl = document.getElementById('footerCopyrightText');
+
+            if (headerNameEl) headerNameEl.textContent = firmName;
+            if (headerTaglineEl) headerTaglineEl.textContent = tagline;
+            if (heroBadgeEl) heroBadgeEl.textContent = `${firmName} • ${tagline}`;
+            if (footerHeadingEl) footerHeadingEl.textContent = `${firmName} — ${tagline}`;
+            if (footerSummaryEl) {
+                footerSummaryEl.textContent = `Quality & Assured Products in All Types of Yarn & Fabric. ${firmSettings.address} Mobile: ${formattedPhone} | Email: ${firmSettings.email}.`;
+            }
+            if (footerCopyEl) {
+                footerCopyEl.textContent = `© ${firmName}, Guntur. All Rights Reserved.`;
+            }
+
+            // Contact Section Details & Links
+            const addrEl = document.getElementById('contactAddressText');
+            const emailEl = document.getElementById('contactEmailLink');
+            const mapEl = document.getElementById('contactMapLink');
+            const footerMapEl = document.getElementById('footerMapLink');
+            const mapIframeEl = document.getElementById('contactMapIframe');
+            const phoneEl = document.getElementById('contactPhoneLink');
+
+            if (addrEl) addrEl.textContent = firmSettings.address;
+            if (emailEl) {
+                emailEl.href = `mailto:${firmSettings.email}`;
+                emailEl.innerHTML = `<span>${firmSettings.email}</span>`;
+            }
+            if (mapEl) {
+                mapEl.href = firmSettings.mapUrl || DEFAULT_SETTINGS.mapUrl;
+            }
+            if (footerMapEl) {
+                footerMapEl.href = firmSettings.mapUrl || DEFAULT_SETTINGS.mapUrl;
+            }
+            if (mapIframeEl) {
+                const desiredSrc = buildMapEmbedUrl(firmSettings.mapEmbedQuery || firmSettings.address);
+                if (mapIframeEl.src !== desiredSrc) {
+                    mapIframeEl.src = desiredSrc;
+                }
+            }
+            if (phoneEl) {
+                phoneEl.href = `tel:+${cleanDigits}`;
+                phoneEl.innerHTML = `<i class="fa-solid fa-phone-volume text-brand-burgundy mr-1"></i> ${formattedPhone}`;
+            }
+        }
+
+        // =====================================================================
+        // FIRM LOGO RENDERING & UPLOAD
+        // =====================================================================
+        const DEFAULT_CUSTOM_LOGO = "";
+
+        function getDefaultLogoSvg() {
+            return `
+                <svg viewBox="0 0 200 200" class="w-full h-full" xmlns="http://www.w3.org/2000/svg" aria-label="SSV MART Official Handshake Logo">
+                    <!-- Top Gold Circular Arrow & Left Hand (#B09B61) -->
+                    <path d="M 30 104
+                             L 30 78
+                             C 30 38, 72 14, 114 22
+                             C 126 24, 137 29, 146 36
+                             L 153 26
+                             C 156 22, 161 24, 162 29
+                             L 168 54
+                             C 169 59, 166 62, 161 61
+                             L 135 58
+                             C 130 57, 129 52, 133 48
+                             L 138 43
+                             C 122 33, 98 31, 78 40
+                             C 63 47, 52 59, 48 72
+                             L 76 72
+                             L 85 83
+                             L 106 70
+                             L 140 106
+                             C 145 111, 138 119, 132 114
+                             L 122 104
+                             L 132 114
+                             C 137 119, 129 127, 123 121
+                             L 113 111
+                             L 122 120
+                             C 127 125, 119 133, 113 128
+                             L 104 119
+                             L 111 126
+                             C 115 131, 108 138, 102 133
+                             L 74 106
+                             L 40 106
+                             C 33 106, 30 104, 30 104 Z"
+                          fill="#B09B61" />
+
+                    <!-- 4 Curled Maroon Fingertips Under Left Hand (#800024) -->
+                    <rect x="64" y="106" width="12" height="19" rx="6" transform="rotate(38 70 115)" fill="#800024" stroke="#FFFFFF" stroke-width="2"/>
+                    <rect x="73" y="114" width="12" height="19" rx="6" transform="rotate(38 79 123)" fill="#800024" stroke="#FFFFFF" stroke-width="2"/>
+                    <rect x="82" y="121" width="12" height="18" rx="6" transform="rotate(38 88 130)" fill="#800024" stroke="#FFFFFF" stroke-width="2"/>
+                    <rect x="91" y="128" width="11" height="17" rx="5.5" transform="rotate(38 96 136)" fill="#800024" stroke="#FFFFFF" stroke-width="2"/>
+
+                    <!-- Right Maroon Hand, Thumb & Bottom Circular Arrow (#800024) -->
+                    <path d="M 170 74
+                             L 170 110
+                             C 170 152, 128 184, 84 176
+                             C 71 173, 59 167, 50 159
+                             L 43 168
+                             C 40 172, 35 170, 34 165
+                             L 28 138
+                             C 27 133, 30 130, 35 131
+                             L 62 135
+                             C 67 136, 68 141, 64 145
+                             L 59 151
+                             C 75 162, 100 165, 121 155
+                             C 138 147, 149 131, 152 114
+                             L 139 114
+                             L 105 78
+                             L 86 90
+                             C 79 94, 72 85, 79 79
+                             L 100 62
+                             C 106 57, 114 57, 122 61
+                             L 146 72
+                             L 168 72
+                             C 170 72, 170 74, 170 74 Z"
+                          fill="#800024" />
+                </svg>
+            `;
+        }
+
+        function renderLogo() {
+            const headerBox = document.getElementById('headerLogoContainer');
+            const ownerPreviewBox = document.getElementById('ownerLogoPreviewBox');
+            const savedLogo = localStorage.getItem(STORAGE_KEY_LOGO) || DEFAULT_CUSTOM_LOGO;
+
+            const html = savedLogo
+                ? `<img src="${savedLogo}" alt="SSV MART Logo" class="w-full h-full object-contain" onerror="this.onerror=null; this.parentElement.innerHTML=getDefaultLogoSvg();">`
+                : getDefaultLogoSvg();
+
+            if (headerBox) headerBox.innerHTML = html;
+            if (ownerPreviewBox) ownerPreviewBox.innerHTML = html;
+        }
+
+        function handleOwnerLogoUpload(event) {
+            const file = event.target.files?.[0];
+            if (!file) return;
+            compressAndReadImage(file, 500, (dataUrl) => {
+                try {
+                    localStorage.setItem(STORAGE_KEY_LOGO, dataUrl);
+                } catch (e) {}
+                renderLogo();
+                showToast("Official Firm Logo updated! Click 'Download index.html for GitHub' to make it permanent.", "success");
+            }, true);
+        }
+
+        function applyCustomLogoUrl() {
+            const input = document.getElementById('customLogoUrlInput');
+            const url = (input?.value || "").trim();
+            if (!url) {
+                showToast("Please enter a valid logo image URL or file name.", "info");
+                return;
+            }
+            try {
+                localStorage.setItem(STORAGE_KEY_LOGO, url);
+            } catch (e) {}
+            renderLogo();
+            showToast("Custom Logo URL applied!", "success");
+        }
+
+        function resetDefaultLogo() {
+            localStorage.removeItem(STORAGE_KEY_LOGO);
+            const input = document.getElementById('customLogoUrlInput');
+            if (input) input.value = "";
+            renderLogo();
+            showToast("Restored official SSV MART Handshake emblem.", "info");
+        }
+
+        function exportStandaloneHtmlForGithub() {
+            const currentLogo = localStorage.getItem(STORAGE_KEY_LOGO) || DEFAULT_CUSTOM_LOGO || "";
+            let htmlSource = document.documentElement.outerHTML;
+
+            // Bake current logo, settings, and products into the downloaded index.html defaults
+            htmlSource = htmlSource.replace(
+                /const DEFAULT_CUSTOM_LOGO = ".*?";/,
+                `const DEFAULT_CUSTOM_LOGO = ${JSON.stringify(currentLogo)};`
+            );
+            htmlSource = htmlSource.replace(
+                /const DEFAULT_SETTINGS = \{[\s\S]*?\};/,
+                `const DEFAULT_SETTINGS = ${JSON.stringify(firmSettings, null, 12)};`
+            );
+            htmlSource = htmlSource.replace(
+                /const DEFAULT_PRODUCTS = \[[\s\S]*?\];/,
+                `const DEFAULT_PRODUCTS = ${JSON.stringify(products, null, 12)};`
+            );
+
+            const fullDoc = "<!DOCTYPE html>\n" + htmlSource;
+            const blob = new Blob([fullDoc], { type: "text/html;charset=utf-8" });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement("a");
+            a.href = url;
+            a.download = "index.html";
+            document.body.appendChild(a);
+            a.click();
+            a.remove();
+            URL.revokeObjectURL(url);
+            showToast("Downloaded updated index.html with your Logo & Products baked in!", "success");
+        }
+
+        // =====================================================================
+        // SUB-CATEGORIES & PRODUCTS RENDERING WITH RIGHT-TO-LEFT SLIDER
+        // =====================================================================
+        function getAllSubCategories() {
+            const set = new Set(["All Products"]);
+            products.forEach(p => {
+                if (p.subCategory && p.subCategory.trim()) {
+                    set.add(p.subCategory.trim());
+                }
+            });
+            return Array.from(set);
+        }
+
+        function renderSubCategoryPills() {
+            const bar = document.getElementById('subCategoryFilterBar');
+            if (!bar) return;
+            const categories = getAllSubCategories();
+            if (!categories.includes(activeSubCategory)) {
+                activeSubCategory = "All Products";
+            }
+
+            bar.innerHTML = categories.map(cat => {
+                const isActive = cat === activeSubCategory;
+                const safeCat = cat.replace(/'/g, "\\'");
+                return `
+                    <button
+                        type="button"
+                        onclick="filterBySubCategory('${safeCat}')"
+                        class="px-4 py-2 rounded-full text-xs sm:text-sm font-bold border transition cursor-pointer ${
+                            isActive
+                                ? 'category-pill-active'
+                                : 'bg-white text-slate-700 border-brand-border hover:border-brand-burgundy'
+                        }"
+                    >
+                        ${cat}
+                    </button>
+                `;
+            }).join('');
+        }
+
+        function filterBySubCategory(category) {
+            activeSubCategory = category;
+            renderSubCategoryPills();
+            renderProductsGrid();
+        }
+
+        function renderProductsGrid() {
+            // Initialize default selected options per product
+            products.forEach(p => {
+                if (!selectedOptionsMap[p.id]) selectedOptionsMap[p.id] = {};
+                (p.optionGroups || []).forEach(g => {
+                    if (!selectedOptionsMap[p.id][g.groupName] && g.values && g.values.length > 0) {
+                        selectedOptionsMap[p.id][g.groupName] = g.values[0];
+                    }
+                });
+                if (typeof carouselIndexMap[p.id] !== 'number') {
+                    carouselIndexMap[p.id] = 0;
+                }
+            });
+
+            const grid = document.getElementById('productsGrid');
+            if (!grid) return;
+
+            const filtered = activeSubCategory === "All Products"
+                ? products
+                : products.filter(p => (p.subCategory || "").trim() === activeSubCategory);
+
+            if (filtered.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-full bg-white p-8 rounded-2xl border border-brand-border text-center">
+                        <h3 class="text-lg font-bold text-brand-charcoal text-center mb-2">No Products in This Category</h3>
+                        <p class="text-sm text-slate-500 text-justify max-w-md mx-auto">Please select "All Products" above to view our complete catalog.</p>
+                    </div>
+                `;
+                return;
+            }
+
+            grid.innerHTML = filtered.map(prod => {
+                const imgs = (Array.isArray(prod.images) && prod.images.length > 0)
+                    ? prod.images
+                    : ["https://placehold.co/600x400/FAF8F5/800020?text=" + encodeURIComponent(prod.name)];
+
+                const currentIndex = (carouselIndexMap[prod.id] || 0) % imgs.length;
+                const safePId = prod.id.replace(/'/g, "\\'");
+
+                // Slides HTML (Right-to-Left sliding track via translateX(-index * 100%))
+                const slidesHtml = imgs.map((imgUrl, idx) => `
+                    <div class="carousel-slide h-64 sm:h-72 w-full bg-slate-100 relative overflow-hidden">
+                        <img
+                            src="${imgUrl}"
+                            alt="${prod.name} - Image ${idx + 1}"
+                            onerror="this.onerror=null; this.src='https://placehold.co/600x400/FAF8F5/800020?text=' + encodeURIComponent('${prod.name}');"
+                            class="w-full h-full object-cover"
+                        >
+                    </div>
+                `).join('');
+
+                // Carousel Controls (Only shown when 2+ images exist)
+                const hasMultipleImages = imgs.length > 1;
+                const carouselControlsHtml = hasMultipleImages ? `
+                    <!-- Left / Right Navigation Arrows -->
+                    <button
+                        type="button"
+                        onclick="stepProductSlide('${safePId}', -1)"
+                        class="absolute left-3 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-black/45 hover:bg-black/70 text-white flex items-center justify-center transition cursor-pointer z-10"
+                        title="Previous Image"
+                    >
+                        <i class="fa-solid fa-chevron-left text-xs"></i>
+                    </button>
+                    <button
+                        type="button"
+                        onclick="stepProductSlide('${safePId}', 1)"
+                        class="absolute right-3 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full bg-black/45 hover:bg-black/70 text-white flex items-center justify-center transition cursor-pointer z-10"
+                        title="Next Image"
+                    >
+                        <i class="fa-solid fa-chevron-right text-xs"></i>
+                    </button>
+                    <!-- Slide Dots Indicator -->
+                    <div class="absolute bottom-3 left-1/2 -translate-x-1/2 flex items-center gap-1.5 bg-black/40 px-2.5 py-1 rounded-full z-10">
+                        ${imgs.map((_, dotIdx) => `
+                            <button
+                                type="button"
+                                onclick="goToProductSlide('${safePId}', ${dotIdx})"
+                                data-dot-prod="${prod.id}"
+                                data-dot-index="${dotIdx}"
+                                class="w-2 h-2 rounded-full transition cursor-pointer ${dotIdx === currentIndex ? 'bg-white scale-125' : 'bg-white/50'}"
+                            ></button>
+                        `).join('')}
+                    </div>
+                ` : '';
+
+                // Specifications Table HTML
+                const specsList = Array.isArray(prod.specifications) ? prod.specifications : [];
+                const specsHtml = specsList.length > 0 ? `
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-2 pt-1">
+                        ${specsList.map(sp => `
+                            <div class="bg-brand-ivory px-3 py-2 rounded-xl border border-brand-border text-center">
+                                <span class="block text-[10px] font-bold uppercase text-slate-400">${sp.label}</span>
+                                <span class="block text-xs font-bold text-brand-charcoal mt-0.5">${sp.value}</span>
+                            </div>
+                        `).join('')}
+                    </div>
+                ` : '';
+
+                // Selectable Options HTML
+                const chosen = selectedOptionsMap[prod.id] || {};
+                const optionsHtml = (prod.optionGroups || []).map(grp => {
+                    const activeVal = chosen[grp.groupName] || (grp.values && grp.values[0]) || "";
+                    const pills = (grp.values || []).map(val => {
+                        const isSelected = activeVal === val;
+                        const safeGName = grp.groupName.replace(/'/g, "\\'");
+                        const safeVal = val.replace(/'/g, "\\'");
+                        return `
+                            <button
+                                type="button"
+                                onclick="selectOptionPill('${safePId}', '${safeGName}', '${safeVal}')"
+                                class="px-3 py-1 rounded-lg text-xs font-semibold border transition cursor-pointer ${
+                                    isSelected
+                                        ? 'option-pill-active'
+                                        : 'bg-white text-slate-700 border-brand-border hover:border-brand-burgundy'
+                                }"
+                            >
+                                ${val}
+                            </button>
+                        `;
+                    }).join('');
+
+                    return `
+                        <div class="space-y-1.5">
+                            <div class="text-xs font-bold text-slate-700">
+                                ${grp.groupName}: <span class="text-brand-burgundy">${activeVal}</span>
+                            </div>
+                            <div class="flex flex-wrap gap-1.5">
+                                ${pills}
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+
+                return `
+                    <article class="bg-white rounded-2xl border border-brand-border shadow-xs hover:shadow-md transition overflow-hidden flex flex-col">
+                        <!-- Right-to-Left Sliding Image Carousel -->
+                        <div class="relative overflow-hidden bg-slate-100">
+                            <!-- Sub-Category Badge -->
+                            <div class="absolute top-3 left-3 z-10">
+                                <span class="px-3 py-1 rounded-full bg-brand-burgundy/90 backdrop-blur-xs text-white text-[11px] font-bold tracking-wide shadow-xs">
+                                    ${prod.subCategory || 'General'}
+                                </span>
+                            </div>
+                            ${hasMultipleImages ? `
+                                <div class="absolute top-3 right-3 z-10">
+                                    <span class="px-2.5 py-1 rounded-full bg-black/50 text-white text-[10px] font-semibold">
+                                        <i class="fa-solid fa-images mr-1"></i> ${imgs.length} Photos
+                                    </span>
+                                </div>
+                            ` : ''}
+
+                            <div
+                                id="carouselTrack-${prod.id}"
+                                class="carousel-track"
+                                style="transform: translateX(-${currentIndex * 100}%);"
+                            >
+                                ${slidesHtml}
+                            </div>
+
+                            ${carouselControlsHtml}
+                        </div>
+
+                        <!-- Product Details Body -->
+                        <div class="p-6 flex-1 flex flex-col justify-between space-y-4">
+                            <div class="space-y-3">
+                                <h3 class="text-xl font-bold text-brand-charcoal text-center">
+                                    ${prod.name}
+                                </h3>
+                                <p class="text-sm text-slate-600 leading-relaxed text-justify">
+                                    ${prod.description}
+                                </p>
+                                ${specsHtml}
+                            </div>
+
+                            <!-- Selectable Options Box -->
+                            <div class="bg-brand-ivory p-4 rounded-xl border border-brand-border space-y-3">
+                                ${optionsHtml || '<p class="text-xs text-slate-500 text-justify">Standard wholesale & retail specifications available.</p>'}
+                            </div>
+
+                            <!-- Action Buttons -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-1">
+                                <button
+                                    type="button"
+                                    onclick="selectProductForLeadForm('${safePId}')"
+                                    class="w-full py-3 px-4 rounded-xl font-bold text-xs sm:text-sm text-brand-burgundy bg-brand-goldSoft hover:bg-amber-100 border border-brand-border transition cursor-pointer"
+                                >
+                                    Get Quote Online
+                                </button>
+                                <button
+                                    type="button"
+                                    onclick="inquireProductWhatsApp('${safePId}')"
+                                    class="w-full py-3 px-4 rounded-xl font-bold text-xs sm:text-sm text-white bg-emerald-600 hover:bg-emerald-700 transition flex items-center justify-center gap-1.5 cursor-pointer"
+                                >
+                                    <i class="fa-brands fa-whatsapp text-base"></i>
+                                    <span>Inquire on WhatsApp</span>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                `;
+            }).join('');
+
+            populateLeadProductDropdown();
+        }
+
+        // =====================================================================
+        // RIGHT-TO-LEFT IMAGE CAROUSEL ENGINE
+        // =====================================================================
+        function startRightToLeftCarouselTimer() {
+            if (carouselIntervalId) clearInterval(carouselIntervalId);
+            carouselIntervalId = setInterval(() => {
+                products.forEach(prod => {
+                    const imgs = Array.isArray(prod.images) ? prod.images : [];
+                    if (imgs.length > 1) {
+                        const nextIdx = ((carouselIndexMap[prod.id] || 0) + 1) % imgs.length;
+                        updateCarouselSlideDOM(prod.id, nextIdx);
+                    }
+                });
+            }, 3200);
+        }
+
+        function stepProductSlide(productId, delta) {
+            const prod = products.find(p => p.id === productId);
+            if (!prod || !Array.isArray(prod.images) || prod.images.length <= 1) return;
+            const len = prod.images.length;
+            const nextIdx = ((carouselIndexMap[productId] || 0) + delta + len) % len;
+            updateCarouselSlideDOM(productId, nextIdx);
+            // Reset timer so manual click feels smooth
+            startRightToLeftCarouselTimer();
+        }
+
+        function goToProductSlide(productId, index) {
+            updateCarouselSlideDOM(productId, index);
+            startRightToLeftCarouselTimer();
+        }
+
+        function updateCarouselSlideDOM(productId, newIndex) {
+            carouselIndexMap[productId] = newIndex;
+            const track = document.getElementById(`carouselTrack-${productId}`);
+            if (track) {
+                track.style.transform = `translateX(-${newIndex * 100}%)`;
+            }
+            const dots = document.querySelectorAll(`[data-dot-prod="${productId}"]`);
+            dots.forEach(dot => {
+                const idx = parseInt(dot.getAttribute('data-dot-index'), 10);
+                if (idx === newIndex) {
+                    dot.className = "w-2 h-2 rounded-full transition cursor-pointer bg-white scale-125";
+                } else {
+                    dot.className = "w-2 h-2 rounded-full transition cursor-pointer bg-white/50";
+                }
+            });
+        }
+
+        function selectOptionPill(productId, groupName, value) {
+            if (!selectedOptionsMap[productId]) selectedOptionsMap[productId] = {};
+            selectedOptionsMap[productId][groupName] = value;
+            renderProductsGrid();
+        }
+
+        // =====================================================================
+        // CONTACT FORM & WHATSAPP LEAD CAPTURE
+        // =====================================================================
+        function populateLeadProductDropdown() {
+            const select = document.getElementById('leadProductSelect');
+            if (!select) return;
+            const prevValue = select.value;
+            select.innerHTML = products.map(p => `<option value="${p.name}">${p.name} (${p.subCategory || 'General'})</option>`).join('') +
+                `<option value="All Types of Yarn & Fabric (General Inquiry)">All Types of Yarn & Fabric (General Inquiry)</option>`;
+
+            if (prevValue && Array.from(select.options).some(o => o.value === prevValue)) {
+                select.value = prevValue;
+            } else if (products.length > 0) {
+                syncSelectedOptionToForm(products[0].name);
+            }
+        }
+
+        function syncSelectedOptionToForm(productName) {
+            const prod = products.find(p => p.name === productName);
+            const optionsInput = document.getElementById('leadOptionsInput');
+            if (prod && optionsInput) {
+                const chosen = selectedOptionsMap[prod.id] || {};
+                const optSummary = Object.entries(chosen).map(([k, v]) => `${k}: ${v}`).join(' | ');
+                optionsInput.value = optSummary ? `${optSummary} — Quantity Required: ` : '';
+            }
+        }
+
+        function selectProductForLeadForm(productId) {
+            const prod = products.find(p => p.id === productId);
+            if (!prod) return;
+            const select = document.getElementById('leadProductSelect');
+            const optionsInput = document.getElementById('leadOptionsInput');
+            if (select) select.value = prod.name;
+            if (optionsInput) {
+                const chosen = selectedOptionsMap[prod.id] || {};
+                const optSummary = Object.entries(chosen).map(([k, v]) => `${k}: ${v}`).join(' | ');
+                optionsInput.value = optSummary ? `${optSummary} — Quantity Required: ` : '';
+            }
+            document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+            setTimeout(() => document.getElementById('leadName')?.focus(), 500);
+        }
+
+        function inquireProductWhatsApp(productId) {
+            const prod = products.find(p => p.id === productId);
+            if (!prod) return;
+            const chosen = selectedOptionsMap[prod.id] || {};
+            const specs = Object.entries(chosen).map(([k, v]) => `${k}: ${v}`).join(', ');
+            const text = `Hello SSV MART, I am interested in *${prod.name}* (${prod.subCategory || 'Catalog'} — ${specs || 'Standard Options'}). Please share wholesale/retail price and availability.`;
+            openWhatsAppWithText(text);
+        }
+
+        function handleLeadSubmit(event) {
+            event.preventDefault();
+            const mode = event.target.dataset.mode || 'online';
+            const name = document.getElementById('leadName').value.trim();
+            const mobile = document.getElementById('leadMobile').value.trim();
+            const email = document.getElementById('leadEmail').value.trim();
+            const product = document.getElementById('leadProductSelect').value;
+            const options = document.getElementById('leadOptionsInput').value.trim();
+
+            const newLead = {
+                id: 'lead-' + Date.now(),
+                name,
+                mobile,
+                email: email || '-',
+                product,
+                options: options || 'Standard Inquiry',
+                source: mode === 'whatsapp' ? 'WhatsApp Form' : 'Website Online Form',
+                date: new Date().toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' })
+            };
+
+            leads.unshift(newLead);
+            saveLeadsState();
+
+            if (mode === 'whatsapp') {
+                const waMsg = `Hello *SSV MART*,\n\n*New Customer Inquiry:*\n• *Name:* ${name}\n• *Mobile:* ${mobile}\n• *Email:* ${email || 'N/A'}\n• *Product:* ${product}\n• *Requirement:* ${options || 'Standard'}\n\nPlease share quotation and availability.`;
+                openWhatsAppWithText(waMsg);
+                showToast("Lead saved & opening WhatsApp!", "success");
+            } else {
+                showToast("Thank you! Your inquiry has been recorded. Our team will contact you shortly.", "success");
+            }
+
+            event.target.reset();
+        }
+
+        function openWhatsAppWithText(text) {
+            const cleanPhone = (firmSettings.phone || "918096257489").replace(/\D/g, '');
+            window.open(`https://wa.me/${cleanPhone}?text=${encodeURIComponent(text)}`, '_blank');
+        }
+
+        // =====================================================================
+        // SEPARATE OWNER LOGIN & ADMIN DASHBOARD
+        // =====================================================================
+        function handleOwnerAccessClick() {
+            if (isOwnerAuthenticated) {
+                openOwnerDashboard();
+            } else {
+                document.getElementById('ownerPinInput').value = "";
+                document.getElementById('ownerLoginError').classList.add('hidden');
+                document.getElementById('ownerLoginModal').classList.remove('hidden');
+                setTimeout(() => document.getElementById('ownerPinInput')?.focus(), 150);
+            }
+        }
+
+        function closeOwnerLoginModal() {
+            document.getElementById('ownerLoginModal').classList.add('hidden');
+        }
+
+        function handleOwnerLoginSubmit(event) {
+            event.preventDefault();
+            const enteredPin = document.getElementById('ownerPinInput').value.trim();
+            const validPin = firmSettings.ownerPin || "8096";
+
+            if (enteredPin === validPin) {
+                isOwnerAuthenticated = true;
+                document.getElementById('footerOwnerBtnText').textContent = "Open Owner Dashboard";
+                closeOwnerLoginModal();
+                openOwnerDashboard();
+                showToast("Welcome to SSV MART Owner Portal!", "success");
+            } else {
+                document.getElementById('ownerLoginError').classList.remove('hidden');
+            }
+        }
+
+        function logoutOwner() {
+            isOwnerAuthenticated = false;
+            document.getElementById('footerOwnerBtnText').textContent = "Owner Login";
+            closeOwnerDashboard();
+            showToast("Logged out of Owner Portal.", "info");
+        }
+
+        function openOwnerDashboard() {
+            renderOwnerProductsTable();
+            populateFirmSettingsForm();
+            renderOwnerLeadsList();
+            document.getElementById('ownerDashboardModal').classList.remove('hidden');
+        }
+
+        function closeOwnerDashboard() {
+            document.getElementById('ownerDashboardModal').classList.add('hidden');
+        }
+
+        function switchOwnerTab(tabName) {
+            ['products', 'branding', 'leads'].forEach(t => {
+                const panel = document.getElementById(`ownerTab-${t}`);
+                const btn = document.getElementById(`tabBtn-${t}`);
+                if (t === tabName) {
+                    panel.classList.remove('hidden');
+                    btn.className = "px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-bold bg-white text-brand-burgundy border-t border-x border-brand-border cursor-pointer";
+                } else {
+                    panel.classList.add('hidden');
+                    btn.className = "px-4 py-2.5 rounded-t-xl text-xs sm:text-sm font-bold text-slate-600 hover:text-brand-burgundy cursor-pointer";
+                }
+            });
+            if (tabName === 'leads') renderOwnerLeadsList();
+            if (tabName === 'branding') populateFirmSettingsForm();
+        }
+
+        // --- OWNER TAB 1: PRODUCTS, MULTI-IMAGES, SUB-CATEGORIES & SPECS ---
+        function renderOwnerProductsTable() {
+            const container = document.getElementById('ownerProductsTableList');
+            if (!container) return;
+
+            container.innerHTML = products.map(prod => {
+                const imgs = Array.isArray(prod.images) && prod.images.length > 0 ? prod.images : [];
+                const thumb = imgs[0] || "https://placehold.co/200x150/FAF8F5/800020?text=No+Image";
+                const safeId = prod.id.replace(/'/g, "\\'");
+
+                return `
+                    <div class="bg-white p-4 rounded-xl border border-brand-border flex flex-col sm:flex-row items-center justify-between gap-4">
+                        <div class="flex items-center gap-4 w-full sm:w-auto">
+                            <img src="${thumb}" alt="${prod.name}" class="w-20 h-16 object-cover rounded-lg border border-brand-border shrink-0">
+                            <div class="space-y-1">
+                                <div class="flex flex-wrap items-center gap-2">
+                                    <span class="text-sm font-bold text-brand-charcoal">${prod.name}</span>
+                                    <span class="px-2.5 py-0.5 rounded-full bg-brand-goldSoft border border-brand-border text-brand-burgundy text-[11px] font-bold">
+                                        ${prod.subCategory || 'General'}
+                                    </span>
+                                    <span class="px-2 py-0.5 rounded-full bg-slate-100 text-slate-700 text-[11px] font-semibold">
+                                        <i class="fa-solid fa-images mr-1"></i> ${imgs.length} Sliding Photos
+                                    </span>
+                                </div>
+                                <p class="text-xs text-slate-500 text-justify line-clamp-1">${prod.description}</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-2 shrink-0 w-full sm:w-auto justify-end">
+                            <button
+                                type="button"
+                                onclick="openProductEditor('${safeId}')"
+                                class="px-3.5 py-2 rounded-xl bg-brand-ivory hover:bg-brand-goldSoft text-brand-burgundy border border-brand-border text-xs font-bold transition cursor-pointer"
+                            >
+                                <i class="fa-solid fa-pen-to-square mr-1"></i> Edit / Upload Photos
+                            </button>
+                            <button
+                                type="button"
+                                onclick="deleteProductByOwner('${safeId}')"
+                                class="px-3 py-2 rounded-xl bg-red-50 hover:bg-red-100 text-red-600 border border-red-200 text-xs font-bold transition cursor-pointer"
+                                title="Delete Product"
+                            >
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function openProductEditor(productId = null) {
+            const box = document.getElementById('ownerProductEditorBox');
+            const heading = document.getElementById('editorFormHeading');
+            const idInput = document.getElementById('editProductId');
+            const nameInput = document.getElementById('editProductName');
+            const catInput = document.getElementById('editProductCategory');
+            const descInput = document.getElementById('editProductDesc');
+            const specsContainer = document.getElementById('editorSpecsContainer');
+            const optsContainer = document.getElementById('editorOptionsContainer');
+
+            specsContainer.innerHTML = "";
+            optsContainer.innerHTML = "";
+            document.getElementById('multiImageUploadInput').value = "";
+            document.getElementById('addImageByUrlInput').value = "";
+
+            if (productId) {
+                const prod = products.find(p => p.id === productId);
+                if (!prod) return;
+                heading.textContent = `Edit Product: ${prod.name}`;
+                idInput.value = prod.id;
+                nameInput.value = prod.name;
+                catInput.value = prod.subCategory || "General";
+                descInput.value = prod.description || "";
+                editorImagesList = Array.isArray(prod.images) ? [...prod.images] : [];
+                (prod.specifications || []).forEach(s => addSpecEditorRow(s.label, s.value));
+                (prod.optionGroups || []).forEach(g => addOptionEditorRow(g.groupName, g.values));
+            } else {
+                heading.textContent = "Add New Product to Catalog";
+                idInput.value = "";
+                nameInput.value = "";
+                catInput.value = "";
+                descInput.value = "";
+                editorImagesList = [];
+                addSpecEditorRow("Material", "High-Strength PP / Yarn");
+                addSpecEditorRow("Minimum Order", "Wholesale & Retail Packs");
+                addOptionEditorRow("Available Colors", ["White", "Red", "Blue", "Yellow", "Green"]);
+                addOptionEditorRow("Size / Capacity", ["Standard Size", "Custom Bulk Order"]);
+            }
+
+            renderEditorImagesPreview();
+            box.classList.remove('hidden');
+            box.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function closeProductEditor() {
+            document.getElementById('ownerProductEditorBox').classList.add('hidden');
+        }
+
+        // Multi-image upload handler (supports selecting multiple files at once or one by one)
+        function handleMultiImageFilesUpload(event) {
+            const files = Array.from(event.target.files || []);
+            if (files.length === 0) return;
+
+            let processed = 0;
+            files.forEach(file => {
+                compressAndReadImage(file, 750, (dataUrl) => {
+                    editorImagesList.push(dataUrl);
+                    processed++;
+                    if (processed === files.length) {
+                        renderEditorImagesPreview();
+                        showToast(`Added ${files.length} photo(s) to product slider!`, "success");
+                    }
+                });
+            });
+            event.target.value = "";
+        }
+
+        function handleAddImageByUrl() {
+            const input = document.getElementById('addImageByUrlInput');
+            const url = input.value.trim();
+            if (!url) return;
+            editorImagesList.push(url);
+            input.value = "";
+            renderEditorImagesPreview();
+            showToast("Image URL added to slider!", "success");
+        }
+
+        function renderEditorImagesPreview() {
+            const container = document.getElementById('editorImagesPreviewList');
+            if (!container) return;
+
+            if (editorImagesList.length === 0) {
+                container.innerHTML = `
+                    <div class="col-span-full p-4 rounded-xl bg-brand-ivory border border-dashed border-brand-border text-center text-xs text-slate-500">
+                        No photos added yet. Click "Upload Photos" above to select 1 or more product images from your device.
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = editorImagesList.map((imgSrc, idx) => `
+                <div class="relative group rounded-xl overflow-hidden border border-brand-border bg-brand-ivory">
+                    <img src="${imgSrc}" alt="Slide ${idx + 1}" class="w-full h-24 object-cover">
+                    <div class="p-1.5 flex items-center justify-between bg-white border-t border-brand-border text-[11px]">
+                        <span class="font-bold text-slate-600">Slide #${idx + 1}</span>
+                        <div class="flex items-center gap-1">
+                            ${idx > 0 ? `
+                                <button type="button" onclick="moveEditorImage(${idx}, -1)" class="px-1.5 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer" title="Move Left">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+                            ` : ''}
+                            ${idx < editorImagesList.length - 1 ? `
+                                <button type="button" onclick="moveEditorImage(${idx}, 1)" class="px-1.5 py-0.5 rounded bg-slate-100 hover:bg-slate-200 text-slate-700 cursor-pointer" title="Move Right">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            ` : ''}
+                            <button type="button" onclick="removeEditorImage(${idx})" class="px-1.5 py-0.5 rounded bg-red-50 hover:bg-red-100 text-red-600 cursor-pointer" title="Remove Photo">
+                                <i class="fa-solid fa-trash"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function moveEditorImage(index, delta) {
+            const target = index + delta;
+            if (target < 0 || target >= editorImagesList.length) return;
+            const temp = editorImagesList[index];
+            editorImagesList[index] = editorImagesList[target];
+            editorImagesList[target] = temp;
+            renderEditorImagesPreview();
+        }
+
+        function removeEditorImage(index) {
+            editorImagesList.splice(index, 1);
+            renderEditorImagesPreview();
+        }
+
+        function addSpecEditorRow(label = "", value = "") {
+            const container = document.getElementById('editorSpecsContainer');
+            const row = document.createElement('div');
+            row.className = "spec-editor-row grid grid-cols-1 sm:grid-cols-12 gap-2 items-center";
+            row.innerHTML = `
+                <div class="sm:col-span-5">
+                    <input
+                        type="text"
+                        placeholder="Specification Name (e.g. Material / GSM)"
+                        value="${label.replace(/"/g, '&quot;')}"
+                        class="spec-label w-full px-3 py-1.5 rounded-lg border border-brand-border text-xs font-bold"
+                    >
+                </div>
+                <div class="sm:col-span-6">
+                    <input
+                        type="text"
+                        placeholder="Value (e.g. Virgin PP Woven / 80 GSM)"
+                        value="${value.replace(/"/g, '&quot;')}"
+                        class="spec-value w-full px-3 py-1.5 rounded-lg border border-brand-border text-xs"
+                    >
+                </div>
+                <div class="sm:col-span-1 text-right">
+                    <button type="button" onclick="this.closest('.spec-editor-row').remove()" class="text-red-600 hover:text-red-800 text-xs px-2 py-1 cursor-pointer">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </div>
+            `;
+            container.appendChild(row);
+        }
+
+        function addOptionEditorRow(groupName = "", valuesArr = []) {
+            const container = document.getElementById('editorOptionsContainer');
+            const row = document.createElement('div');
+            row.className = "opt-editor-row grid grid-cols-1 sm:grid-cols-12 gap-2 items-center";
+            row.innerHTML = `
+                <div class="sm:col-span-4">
+                    <input
+                        type="text"
+                        placeholder="Option Title (e.g. Colors)"
+                        value="${groupName.replace(/"/g, '&quot;')}"
+                        class="opt-name w-full px-3 py-1.5 rounded-lg border border-brand-border text-xs font-bold"
+                    >
+                </div>
+                <div class="sm:col-span-7">
+                    <input
+                        type="text"
+                        placeholder="Comma-separated values (e.g. Red, Blue, Yellow)"
+                        value="${valuesArr.join(', ').replace(/"/g, '&quot;')}"
+                        class="opt-vals w-full px-3 py-1.5 rounded-lg border border-brand-border text-xs"
+                    >
+                </div>
+                <div class="sm:col-span-1 text-right">
+                    <button type="button" onclick="this.closest('.opt-editor-row').remove()" class="text-red-600 hover:text-red-800 text-xs px-2 py-1 cursor-pointer">
+                        <i class="fa-solid fa-trash"></i>
+                    </button>
+                </div>
+            `;
+            container.appendChild(row);
+        }
+
+        function handleSaveProduct(event) {
+            event.preventDefault();
+            const id = document.getElementById('editProductId').value.trim();
+            const name = document.getElementById('editProductName').value.trim();
+            const subCategory = document.getElementById('editProductCategory').value.trim() || "General";
+            const description = document.getElementById('editProductDesc').value.trim();
+
+            const images = editorImagesList.length > 0
+                ? [...editorImagesList]
+                : ["https://placehold.co/600x400/FAF8F5/800020?text=" + encodeURIComponent(name)];
+
+            const specifications = [];
+            document.querySelectorAll('#editorSpecsContainer .spec-editor-row').forEach(row => {
+                const label = row.querySelector('.spec-label')?.value.trim();
+                const value = row.querySelector('.spec-value')?.value.trim();
+                if (label && value) specifications.push({ label, value });
+            });
+
+            const optionGroups = [];
+            document.querySelectorAll('#editorOptionsContainer .opt-editor-row').forEach(row => {
+                const groupName = row.querySelector('.opt-name')?.value.trim();
+                const rawVals = row.querySelector('.opt-vals')?.value || "";
+                const values = rawVals.split(',').map(v => v.trim()).filter(Boolean);
+                if (groupName && values.length > 0) {
+                    optionGroups.push({ groupName, values });
+                }
+            });
+
+            if (id) {
+                const idx = products.findIndex(p => p.id === id);
+                if (idx !== -1) {
+                    products[idx] = {
+                        ...products[idx],
+                        name,
+                        subCategory,
+                        description,
+                        images,
+                        specifications,
+                        optionGroups
+                    };
+                }
+                showToast(`Updated "${name}" successfully!`, "success");
+            } else {
+                const newProd = {
+                    id: 'prod-' + Date.now(),
+                    name,
+                    subCategory,
+                    description,
+                    images,
+                    specifications,
+                    optionGroups
+                };
+                products.push(newProd);
+                showToast(`Added "${name}" to catalog!`, "success");
+            }
+
+            saveProductsState();
+            renderSubCategoryPills();
+            renderProductsGrid();
+            renderOwnerProductsTable();
+            closeProductEditor();
+        }
+
+        function deleteProductByOwner(productId) {
+            const target = products.find(p => p.id === productId);
+            if (!target) return;
+            products = products.filter(p => p.id !== productId);
+            saveProductsState();
+            renderSubCategoryPills();
+            renderProductsGrid();
+            renderOwnerProductsTable();
+            showToast(`Removed "${target.name}" from catalog.`, "info");
+        }
+
+        function restoreDefaultCatalog() {
+            products = JSON.parse(JSON.stringify(DEFAULT_PRODUCTS));
+            activeSubCategory = "All Products";
+            selectedOptionsMap = {};
+            carouselIndexMap = {};
+            saveProductsState();
+            renderSubCategoryPills();
+            renderProductsGrid();
+            renderOwnerProductsTable();
+            closeProductEditor();
+            showToast("Restored default SSV MART product catalog.", "info");
+        }
+
+        // --- OWNER TAB 2: FIRM LOGO, LOCATION & CONTACT SETTINGS ---
+        function populateFirmSettingsForm() {
+            document.getElementById('settingFirmName').value = firmSettings.firmName || DEFAULT_SETTINGS.firmName;
+            document.getElementById('settingFirmTagline').value = firmSettings.tagline || DEFAULT_SETTINGS.tagline;
+            document.getElementById('settingFirmEmail').value = firmSettings.email || DEFAULT_SETTINGS.email;
+            document.getElementById('settingFirmPhone').value = firmSettings.phone || DEFAULT_SETTINGS.phone;
+            document.getElementById('settingFirmMapUrl').value = firmSettings.mapUrl || DEFAULT_SETTINGS.mapUrl;
+            document.getElementById('settingFirmMapQuery').value = firmSettings.mapEmbedQuery || DEFAULT_SETTINGS.mapEmbedQuery;
+            document.getElementById('settingFirmAddress').value = firmSettings.address || DEFAULT_SETTINGS.address;
+            document.getElementById('settingOwnerPin').value = firmSettings.ownerPin || DEFAULT_SETTINGS.ownerPin;
+            renderLogo();
+            updateOwnerMapPreview();
+        }
+
+        function updateOwnerMapPreview() {
+            const queryInput = document.getElementById('settingFirmMapQuery');
+            const addrInput = document.getElementById('settingFirmAddress');
+            const previewIframe = document.getElementById('ownerMapPreviewIframe');
+            if (!previewIframe) return;
+            const q = (queryInput && queryInput.value.trim()) || (addrInput && addrInput.value.trim()) || DEFAULT_SETTINGS.mapEmbedQuery;
+            previewIframe.src = buildMapEmbedUrl(q);
+        }
+
+        function testOwnerMapUrl() {
+            const urlInput = document.getElementById('settingFirmMapUrl');
+            const url = (urlInput && urlInput.value.trim()) || DEFAULT_SETTINGS.mapUrl;
+            window.open(url, '_blank', 'noopener,noreferrer');
+        }
+
+        function useOwnerCurrentGpsLocation() {
+            if (!navigator.geolocation) {
+                showToast("GPS Geolocation is not supported by this browser.", "info");
+                return;
+            }
+            showToast("Detecting your current GPS coordinates...", "info");
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    const lat = position.coords.latitude.toFixed(6);
+                    const lng = position.coords.longitude.toFixed(6);
+                    const coordsQuery = `${lat}, ${lng}`;
+                    const queryInput = document.getElementById('settingFirmMapQuery');
+                    if (queryInput) {
+                        queryInput.value = coordsQuery;
+                    }
+                    updateOwnerMapPreview();
+                    showToast(`GPS coordinates (${coordsQuery}) loaded into map preview! Click Save to apply.`, "success");
+                },
+                () => {
+                    showToast("Unable to fetch GPS location. Please allow location permission or type the address manually.", "info");
+                },
+                { enableHighAccuracy: true, timeout: 10000 }
+            );
+        }
+
+        function resetDefaultShopLocation() {
+            document.getElementById('settingFirmAddress').value = DEFAULT_SETTINGS.address;
+            document.getElementById('settingFirmMapUrl').value = DEFAULT_SETTINGS.mapUrl;
+            document.getElementById('settingFirmMapQuery').value = DEFAULT_SETTINGS.mapEmbedQuery;
+            updateOwnerMapPreview();
+            showToast("Restored default SSV MART Guntur shop location. Click Save to apply.", "info");
+        }
+
+        function handleSaveFirmSettings(event) {
+            event.preventDefault();
+            firmSettings.firmName = document.getElementById('settingFirmName').value.trim() || DEFAULT_SETTINGS.firmName;
+            firmSettings.tagline = document.getElementById('settingFirmTagline').value.trim() || DEFAULT_SETTINGS.tagline;
+            firmSettings.email = document.getElementById('settingFirmEmail').value.trim() || DEFAULT_SETTINGS.email;
+            firmSettings.phone = document.getElementById('settingFirmPhone').value.trim() || DEFAULT_SETTINGS.phone;
+            firmSettings.mapUrl = document.getElementById('settingFirmMapUrl').value.trim() || DEFAULT_SETTINGS.mapUrl;
+            firmSettings.mapEmbedQuery = document.getElementById('settingFirmMapQuery').value.trim() || DEFAULT_SETTINGS.mapEmbedQuery;
+            firmSettings.address = document.getElementById('settingFirmAddress').value.trim() || DEFAULT_SETTINGS.address;
+            firmSettings.ownerPin = document.getElementById('settingOwnerPin').value.trim() || "8096";
+
+            saveFirmSettingsState();
+            updateOwnerMapPreview();
+            showToast("Firm location, map & contact details updated across the website!", "success");
+        }
+
+        // --- OWNER TAB 3: LEADS MANAGEMENT & CSV DOWNLOAD ---
+        function updateLeadsCountUI() {
+            const el = document.getElementById('ownerLeadsCount');
+            if (el) el.textContent = leads.length;
+        }
+
+        function renderOwnerLeadsList() {
+            const container = document.getElementById('ownerLeadsContainer');
+            if (!container) return;
+
+            if (leads.length === 0) {
+                container.innerHTML = `
+                    <div class="p-6 rounded-xl bg-brand-ivory border border-brand-border text-center">
+                        <p class="text-xs sm:text-sm text-slate-500 text-justify max-w-lg mx-auto">
+                            No customer leads recorded yet. Whenever a visitor submits the inquiry form or shares their mobile number in the online chatbot, their details will be listed here.
+                        </p>
+                    </div>
+                `;
+                return;
+            }
+
+            container.innerHTML = leads.map(l => `
+                <div class="p-4 rounded-xl bg-white border border-brand-border flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                    <div class="space-y-1">
+                        <div class="flex flex-wrap items-center gap-2">
+                            <span class="text-sm font-bold text-brand-charcoal">${l.name}</span>
+                            <span class="text-xs font-bold text-brand-burgundy">${l.mobile}</span>
+                            <span class="px-2 py-0.5 rounded-full bg-brand-ivory border border-brand-border text-[10px] font-semibold text-slate-600">${l.source || 'Website'}</span>
+                            <span class="text-[11px] text-slate-400">${l.date}</span>
+                        </div>
+                        <div class="text-xs font-semibold text-slate-700">
+                            Interested In: <span class="text-brand-burgundy">${l.product}</span>
+                        </div>
+                        <div class="text-xs text-slate-600">
+                            Details: ${l.options} ${l.email && l.email !== '-' ? ` | Email: ${l.email}` : ''}
+                        </div>
+                    </div>
+                    <div class="flex items-center gap-2 shrink-0">
+                        <a
+                            href="https://wa.me/91${l.mobile.replace(/\D/g, '').slice(-10)}?text=${encodeURIComponent('Hello ' + l.name + ', thank you for contacting SSV MART regarding ' + l.product + '.')}"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="px-3 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold"
+                        >
+                            <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp
+                        </a>
+                        ${l.email && l.email !== '-' ? `
+                            <a
+                                href="mailto:${l.email}?subject=${encodeURIComponent('SSV MART Quotation - ' + l.product)}"
+                                class="px-3 py-2 rounded-lg bg-brand-burgundy hover:bg-brand-burgundyDark text-white text-xs font-bold"
+                            >
+                                <i class="fa-solid fa-envelope mr-1"></i> Email
+                            </a>
+                        ` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function exportLeadsCsv() {
+            if (leads.length === 0) {
+                showToast("No leads to download yet.", "info");
+                return;
+            }
+            const headers = ["Date", "Customer Name", "Mobile", "Email", "Product", "Specifications/Notes", "Source"];
+            const rows = leads.map(l => [
+                `"${(l.date || '').replace(/"/g, '""')}"`,
+                `"${(l.name || '').replace(/"/g, '""')}"`,
+                `"${(l.mobile || '').replace(/"/g, '""')}"`,
+                `"${(l.email || '').replace(/"/g, '""')}"`,
+                `"${(l.product || '').replace(/"/g, '""')}"`,
+                `"${(l.options || '').replace(/"/g, '""')}"`,
+                `"${(l.source || '').replace(/"/g, '""')}"`
+            ].join(','));
+
+            const csvContent = "data:text/csv;charset=utf-8," + [headers.join(','), ...rows].join('\n');
+            const link = document.createElement('a');
+            link.setAttribute('href', encodeURI(csvContent));
+            link.setAttribute('download', 'ssv_mart_leads.csv');
+            document.body.appendChild(link);
+            link.click();
+            link.remove();
+        }
+
+        function clearAllLeads() {
+            leads = [];
+            saveLeadsState();
+            renderOwnerLeadsList();
+            showToast("Cleared all saved leads.", "info");
+        }
+
+        // =====================================================================
+        // IMAGE COMPRESSION UTILITY (FOR SMOOTH LOCAL STORAGE PERSISTENCE)
+        // =====================================================================
+        function compressAndReadImage(file, maxWidth, callback, preservePng = false) {
+            const reader = new FileReader();
+            reader.onload = function(e) {
+                const img = new Image();
+                img.onload = function() {
+                    const canvas = document.createElement('canvas');
+                    const scale = Math.min(1, maxWidth / img.width);
+                    canvas.width = img.width * scale;
+                    canvas.height = img.height * scale;
+                    const ctx = canvas.getContext('2d');
+                    if (!preservePng) {
+                        ctx.fillStyle = "#FFFFFF";
+                        ctx.fillRect(0, 0, canvas.width, canvas.height);
+                    }
+                    ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                    const mimeType = preservePng ? 'image/png' : 'image/jpeg';
+                    callback(canvas.toDataURL(mimeType, 0.88));
+                };
+                img.src = e.target.result;
+            };
+            reader.readAsDataURL(file);
+        }
+
+        // =====================================================================
+        // ONLINE VISITOR CHATBOT + WHATSAPP INTEGRATION
+        // =====================================================================
+        function toggleChatbot(forceOpen) {
+            const panel = document.getElementById('chatbotPanel');
+            if (typeof forceOpen === 'boolean') {
+                panel.classList.toggle('hidden', !forceOpen);
+            } else {
+                panel.classList.toggle('hidden');
+            }
+            if (!panel.classList.contains('hidden')) {
+                renderChatMessages();
+                document.getElementById('visitorChatInput')?.focus();
+            }
+        }
+
+        function renderChatMessages() {
+            const box = document.getElementById('chatMessagesList');
+            if (!box) return;
+            box.innerHTML = chatHistory.map(m => {
+                if (m.sender === 'user') {
+                    return `
+                        <div class="flex justify-end">
+                            <div class="bg-brand-burgundy text-white px-3.5 py-2.5 rounded-2xl rounded-tr-xs max-w-[82%] shadow-2xs">
+                                <p class="text-xs leading-relaxed text-justify">${m.text}</p>
+                            </div>
+                        </div>
+                    `;
+                } else {
+                    const actionLinkHtml = m.mapUrl ? `
+                        <div class="mt-2 pt-2 border-t border-brand-border">
+                            <a
+                                href="${m.mapUrl}"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-brand-burgundy hover:bg-brand-burgundyDark text-white text-[11px] font-bold transition"
+                            >
+                                <i class="fa-solid fa-diamond-turn-right"></i>
+                                <span>Open Exact Shop Location on Google Maps</span>
+                            </a>
+                        </div>
+                    ` : '';
+                    return `
+                        <div class="flex justify-start">
+                            <div class="bg-white text-slate-800 px-3.5 py-2.5 rounded-2xl rounded-tl-xs max-w-[86%] border border-brand-border shadow-2xs">
+                                <p class="text-xs leading-relaxed text-justify">${m.text}</p>
+                                ${actionLinkHtml}
+                            </div>
+                        </div>
+                    `;
+                }
+            }).join('');
+            box.scrollTop = box.scrollHeight;
+        }
+
+        function sendQuickChatQuestion(topic) {
+            processVisitorMessage(topic);
+        }
+
+        function handleVisitorChatSubmit(event) {
+            event.preventDefault();
+            const input = document.getElementById('visitorChatInput');
+            const msg = input.value.trim();
+            if (!msg) return;
+            input.value = "";
+            processVisitorMessage(msg);
+        }
+
+        function processVisitorMessage(userText) {
+            chatHistory.push({ sender: 'user', text: userText });
+            renderChatMessages();
+
+            const lower = userText.toLowerCase();
+            let reply = "";
+            let attachMapUrl = null;
+
+            // Auto-capture lead if visitor shares a 10-digit mobile number
+            const phoneMatch = userText.match(/\b\d{10}\b/);
+            if (phoneMatch) {
+                leads.unshift({
+                    id: 'lead-' + Date.now(),
+                    name: 'Online Chat Visitor',
+                    mobile: phoneMatch[0],
+                    email: '-',
+                    product: 'Online Chatbot Inquiry',
+                    options: userText,
+                    source: 'Online Chatbot',
+                    date: new Date().toLocaleString('en-IN', { dateStyle: 'medium', timeStyle: 'short' })
+                });
+                saveLeadsState();
+                reply = `Thank you! We have registered your mobile number (${phoneMatch[0]}). Our team at ${firmSettings.firmName} will call you shortly, or you can click the green WhatsApp button above to chat immediately.`;
+            } else if (lower.includes('product') || lower.includes('yarn') || lower.includes('fabric') || lower.includes('bag') || lower.includes('sack') || lower.includes('category')) {
+                const summary = products.map(p => `${p.name} (${p.subCategory})`).join(', ');
+                reply = `We offer: ${summary}. Every product is available in multiple colors, sizes, and specifications. Please type your 10-digit mobile number and required item for a price quote!`;
+            } else if (lower.includes('price') || lower.includes('quote') || lower.includes('bulk') || lower.includes('rate')) {
+                reply = `For wholesale or retail rates, please share your Name, 10-digit Mobile Number, and required quantity right here, or email us at ${firmSettings.email}, or click the green WhatsApp button above.`;
+            } else if (lower.includes('location') || lower.includes('address') || lower.includes('map') || lower.includes('email') || lower.includes('where')) {
+                reply = `We are located at: ${firmSettings.address} | Email: ${firmSettings.email} | Mobile: ${firmSettings.displayPhone}. Click the button below to open our exact shop location on Google Maps:`;
+                attachMapUrl = firmSettings.mapUrl || DEFAULT_SETTINGS.mapUrl;
+            } else {
+                reply = `Thank you for messaging ${firmSettings.firmName}! Please share your 10-digit Mobile Number and product requirement here so we can assist you, or click the green WhatsApp button above to chat with us on ${firmSettings.displayPhone}.`;
+            }
+
+            setTimeout(() => {
+                chatHistory.push({ sender: 'bot', text: reply, mapUrl: attachMapUrl });
+                renderChatMessages();
+            }, 320);
+        }
+
+        function continueChatOnWhatsApp() {
+            const userMsgs = chatHistory.filter(m => m.sender === 'user').map(m => m.text).join(' | ');
+            const text = userMsgs
+                ? `Hello ${firmSettings.firmName}, I was chatting on your website regarding: "${userMsgs}". Please share more details.`
+                : `Hello ${firmSettings.firmName}, I am visiting your website and would like to inquire about your Yarn, Fabric & Bag products.`;
+            openWhatsAppWithText(text);
+        }
+
+        // =====================================================================
+        // TOAST NOTIFICATION HELPER
+        // =====================================================================
+        function showToast(msg, type = "success") {
+            const box = document.getElementById('toastBox');
+            if (!box) return;
+            const el = document.createElement('div');
+            el.className = `px-4 py-3 rounded-xl text-white text-xs font-bold shadow-lg ${
+                type === 'success' ? 'bg-brand-burgundy' : 'bg-slate-800'
+            }`;
+            el.textContent = msg;
+            box.appendChild(el);
+            setTimeout(() => el.remove(), 3400);
+        }
+
+        window.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
